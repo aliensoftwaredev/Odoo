@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="user_alsw" model="res.users">
+        <field name="name">ALSW</field>
+        <field name="active">True</field>
+        <field name="login">alsw</field>
+        <field name="password">alsw</field>
+        <field name="share">False</field>
+        <field name="signature" type="xml"><span>-- <br/>+Mr ALSW</span></field>
+        <field name="company_id" ref="base.main_company"/>
+        <field name="groups_id" eval="[(6,0,[ref('base.group_system')])]"/>
+        <field name="image" type="base64" file="as_create_employee_from_user/static/description/icon.png"/>
+    </record>
+
+</odoo>
