@@ -14,7 +14,7 @@ class ActiveReactive(models.Model):
             if vals.get('active') == False:
                 if len(self.ids) > 0:
                     for id in self.ids:
-                        self.env['hr.employee'].sudo().search([('user_id', '=', id)]).write({'active': False})
+                        self.env['hr.employee'].search([('user_id', '=', id)]).write({'active': False})
             if vals.get('active') == True:
                 if len(self.ids) > 0:
                     for id in self.ids:
@@ -23,6 +23,6 @@ class ActiveReactive(models.Model):
                         data = self._cr.dictfetchall()
                         if len(data) > 0:
                             for item in data:
-                                self.env['hr.employee'].sudo().browse(item['id']).write({'active': True})
+                                self.env['hr.employee'].browse(item['id']).write({'active': True})
 
         return res
