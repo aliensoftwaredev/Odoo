@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="alsw_sparkpost_config_form_view" model="ir.ui.view">
+        <field name="name">alsw.sparkpost.config.form</field>
+        <field name="model">alsw.sparkpost.config</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only"/>
+                        <h1>
+                            <field name="name" placeholder="Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="username"/>
+                        </group>
+                        <group>
+                            <field name="password" password="True"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="web_access_token"/>
+                            <field name="expiry_date"/>
+                            <field name="active"/>
+                        </group>
+                        <group>
+                            <field name="user_access_token"/>
+                            <field name="duplicate" invisible="True"/>
+                        </group>
+                    </group>
+                    <div class="row">
+                        <div class='col-lg-4'>
+                            <button name="get_access_token" type="object" string="Get Access Token" icon="fa-television"/>
+                        </div>
+                        <div class='col-lg-4'>
+                            <button name="active_account" type="object" string="Active Account" icon="fa-television"/>
+                        </div>
+                        <div class='col-lg-4'>
+                            <button name="create_smtp" type="object" string="Create SMTP" icon="fa-television"/>
+                        </div>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="alsw_sparkpost_config_tree_view" model="ir.ui.view">
+        <field name="name">alsw.sparkpost.config.tree</field>
+        <field name="model">alsw.sparkpost.config</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="web_access_token"/>
+                <field name="user_access_token"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="alsw_sparkpost_config_action">
+        <field name="name">Sparkpost Config</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">alsw.sparkpost.config</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+    </record>
+
+    <menuitem id="alsw_sparkpost_root" name="Sparkpost" web_icon="as_sparkpost,static/description/webicon.png"/>
+    <menuitem id="alsw_sparkpost_config_menu" name="Config" sequence="20" parent="alsw_sparkpost_root" action="alsw_sparkpost_config_action"/>
+
+</odoo>
