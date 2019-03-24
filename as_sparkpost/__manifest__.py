@@ -18,6 +18,9 @@ I) Description
         'views/config.xml',
         'security/ir.model.access.csv',
     ],
+    'demo': [
+        'demo/sparkpost.xml',
+    ],
     'installable': True,
     'auto_install': False,
     'application': True,

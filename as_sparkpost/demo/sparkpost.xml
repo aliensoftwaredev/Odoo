@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="alsw_sparkpost_config_demo" model="alsw.sparkpost.config">
+            <field name="name">ALSW</field>
+            <field name="username">raloja@myfavorite.info</field>
+            <field name="password">XeNnUMcrCR3GasMY</field>
+            <field name="active">True</field>
+            <field name="duplicate">d2b3a99c930cfeb90084c77b1bd20013</field>
+            <field name="web_access_token">cc0f0a8b575d58dda76449bd0d44475533584b52</field>
+            <field name="user_access_token">b62164dd832296e17e73b2ad0d66cd70898d5610</field>
+            <field name="expiry_date" eval="time.strftime('%Y-%m-10 7:00:00')"/>
+            <field name="web_access_token">cc0f0a8b575d58dda76449bd0d44475533584b52</field>
+        </record>
+
+        <record id="ir_mail_server_demo" model="ir.mail_server">
+            <field name="name">Sparkpost SMTP Demo</field>
+            <field name="smtp_host">smtp.sparkpostmail.com</field>
+            <field name="smtp_port">587</field>
+            <field name="active">True</field>
+            <field name="smtp_user">SMTP_Injection</field>
+            <field name="smtp_pass">b62164dd832296e17e73b2ad0d66cd70898d5610</field>
+            <field name="smtp_encryption">starttls</field>
+            <field name="sequence">20</field>
+        </record>
+    </data>
+</odoo>
