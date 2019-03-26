@@ -1,0 +1,177 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* as_sparkpost
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-26 00:52+0000\n"
+"PO-Revision-Date: 2019-03-26 00:52+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: as_sparkpost
+#: model:ir.model,name:as_sparkpost.model_alsw_sparkpost_config
+msgid "ALSW - Sparkpost"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__active
+msgid "Active"
+msgstr ""
+
+#. module: as_sparkpost
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Active Account"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.ui.menu,name:as_sparkpost.alsw_sparkpost_config_menu
+msgid "Config"
+msgstr ""
+
+#. module: as_sparkpost
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Create SMTP"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__create_uid
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__create_date
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__display_name
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:31
+#, python-format
+msgid "Do not allow account duplication!"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__duplicate
+msgid "Duplicate"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__expiry_date
+msgid "Expiry Date"
+msgstr ""
+
+#. module: as_sparkpost
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Get Access Token"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__id
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__id
+msgid "ID"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost____last_update
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__write_uid
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__write_date
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__name
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Name"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__password
+msgid "Password"
+msgstr ""
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:150
+#, python-format
+msgid "Please check your access token!"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.ui.menu,name:as_sparkpost.alsw_sparkpost_root
+msgid "Sparkpost"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.actions.act_window,name:as_sparkpost.alsw_sparkpost_config_action
+msgid "Sparkpost Config"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__user_access_token
+msgid "User Access Token"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__username
+msgid "Username"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__web_access_token
+msgid "Web Access Token"
+msgstr ""
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:116
+#, python-format
+msgid "You should check your api!"
+msgstr ""
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:95
+#, python-format
+msgid "You should check your username or password!"
+msgstr ""
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:148
+#, python-format
+msgid "Your account may be successfully activated!"
+msgstr ""
+
+#. module: as_sparkpost
+#: model:ir.model,name:as_sparkpost.model_alsw_sparkpost
+msgid "alsw.sparkpost"
+msgstr ""
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:93
+#: code:addons/as_sparkpost/models/config.py:114
+#, python-format
+msgid "error"
+msgstr ""
+

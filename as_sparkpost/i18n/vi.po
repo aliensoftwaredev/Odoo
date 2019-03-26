@@ -1,0 +1,178 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* as_sparkpost
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-26 00:52+0000\n"
+"PO-Revision-Date: 2019-03-26 08:05+0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Language: vi\n"
+
+#. module: as_sparkpost
+#: model:ir.model,name:as_sparkpost.model_alsw_sparkpost_config
+msgid "ALSW - Sparkpost"
+msgstr "ALSW - Sparkpost"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__active
+msgid "Active"
+msgstr "Kích hoạt"
+
+#. module: as_sparkpost
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Active Account"
+msgstr "Kích hoạt tài khoản"
+
+#. module: as_sparkpost
+#: model:ir.ui.menu,name:as_sparkpost.alsw_sparkpost_config_menu
+msgid "Config"
+msgstr "Cấu hình"
+
+#. module: as_sparkpost
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Create SMTP"
+msgstr "Tạo SMTP"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__create_uid
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__create_date
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__create_date
+msgid "Created on"
+msgstr "Tạo vào ngày"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__display_name
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:31
+#, python-format
+msgid "Do not allow account duplication!"
+msgstr "Không cho phép trùng tài khoản và mật khẩu!"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__duplicate
+msgid "Duplicate"
+msgstr "Trùng nhau"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__expiry_date
+msgid "Expiry Date"
+msgstr "Ngày hết hạn"
+
+#. module: as_sparkpost
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Get Access Token"
+msgstr "Lấy mã xác thực"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__id
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__id
+msgid "ID"
+msgstr "Mã định danh"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost____last_update
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config____last_update
+msgid "Last Modified on"
+msgstr "Sửa đổi lần cuối vào"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__write_uid
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__write_uid
+msgid "Last Updated by"
+msgstr "Sửa gần đây nhất bởi"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost__write_date
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__name
+#: model_terms:ir.ui.view,arch_db:as_sparkpost.alsw_sparkpost_config_form_view
+msgid "Name"
+msgstr "Tên"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__password
+msgid "Password"
+msgstr "Mật khẩu"
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:150
+#, python-format
+msgid "Please check your access token!"
+msgstr "Xin vui lòng kiểm tra mã xác thực!"
+
+#. module: as_sparkpost
+#: model:ir.ui.menu,name:as_sparkpost.alsw_sparkpost_root
+msgid "Sparkpost"
+msgstr "Sparkpost"
+
+#. module: as_sparkpost
+#: model:ir.actions.act_window,name:as_sparkpost.alsw_sparkpost_config_action
+msgid "Sparkpost Config"
+msgstr "Cấu hình Sparkpost"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__user_access_token
+msgid "User Access Token"
+msgstr "Mã xác thực cho tài khoản nguời dùng"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__username
+msgid "Username"
+msgstr "Tài khoản"
+
+#. module: as_sparkpost
+#: model:ir.model.fields,field_description:as_sparkpost.field_alsw_sparkpost_config__web_access_token
+msgid "Web Access Token"
+msgstr "Mã xác thực trên web"
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:116
+#, python-format
+msgid "You should check your api!"
+msgstr "Bạn nên kiểm tra lại API!"
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:95
+#, python-format
+msgid "You should check your username or password!"
+msgstr "Bạn nên kiểm tra lại tài khoản và mật khẩu!"
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:148
+#, python-format
+msgid "Your account may be successfully activated!"
+msgstr "Tài khoản của bạn có lẽ xác thực thành công!"
+
+#. module: as_sparkpost
+#: model:ir.model,name:as_sparkpost.model_alsw_sparkpost
+msgid "alsw.sparkpost"
+msgstr "alsw.sparkpost"
+
+#. module: as_sparkpost
+#: code:addons/as_sparkpost/models/config.py:93
+#: code:addons/as_sparkpost/models/config.py:114
+#, python-format
+msgid "error"
+msgstr "lỗi"
