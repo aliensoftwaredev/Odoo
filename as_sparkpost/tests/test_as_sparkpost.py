@@ -70,5 +70,5 @@ class Test(common.TransactionCase):
         from_email = 'raloja@myfavorite.info'
         subject = 'This is a test email'
         content = 'Thanks for reading my email!'
-        check, result = self.env['alsw.sparkpost'].sudo().send_email(to_email, from_name, from_email, subject, content)
+        check, result = self.env['alsw.sparkpost'].send_email(to_email, from_name, from_email, subject, content)
         self.assertTrue(check)
