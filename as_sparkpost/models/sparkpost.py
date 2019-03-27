@@ -17,7 +17,7 @@ class SparkPost(models.Model):
         return headers
 
     @api.multi
-    def send_email(self, to_email, from_name, from_email, subject, content, content_type):
+    def send_email(self, to_email, from_name, from_email, subject, content):
         access_token = self.env['alsw.sparkpost.config'].sudo().search([('active', '=', True)],
                                                                        order='id DESC',
                                                                        limit=1)
@@ -28,13 +28,6 @@ class SparkPost(models.Model):
         header_content_type = 'application/json'
         authorization = token
         headers = self.create_headers(header_content_type, authorization)
-        #
-        text = ''
-        if content_type == 'text':
-            text = content
-        html = ''
-        if content_type == 'html':
-            html = content
         #
         body = """
         {
@@ -55,11 +48,11 @@ class SparkPost(models.Model):
                     "email": "%s"
                 },
                 "subject": "%s",
-                "text": "%s",
+                "text": "",
                 "html": "%s"
             }
         }
-        """ % (to_email, from_name, from_email, subject, text, html)
+        """ % (to_email, from_name, from_email, subject, content)
 
         session = requests.Session()
         r = session.post(url, data=body, headers=headers)
