@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="alsw_time_assets_backend" name="alsw_time_assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/as_time/static/src/js/time.js"></script>
+            <script type="text/javascript" src="/as_time/static/src/js/field_utils.js"></script>
+        </xpath>
+    </template>
+</odoo>
