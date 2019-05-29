@@ -9,14 +9,13 @@ odoo.define('alsw_filter_selection.dynamic_selection', function(require) {
 
     var DynamicSelection = relational_fields.FieldSelection.extend({
 
-        _renderEdit: function() {
-            this._super.apply(this, arguments);
+        _dynamic_selection: function(){
             if('alsw' in this.attrs){
                 var alsw = pyUtils.py_eval(this.attrs.alsw);
                 for(var i=0 ; i < alsw.length; i++){
                     var filter = alsw[i];
                     if('domain' in filter && 'values' in filter){
-                        var check = new Domain(filter.domain).compute(this.record.data);
+                        var check = new Domain(filter.domain).compute(this.save_point);
                         if(check){
                             var keep_values = filter.values;
                             var default_values = this.values;
@@ -31,6 +30,17 @@ odoo.define('alsw_filter_selection.dynamic_selection', function(require) {
                     }
                 }
             }
+        },
+
+        init: function (){
+            this._super.apply(this, arguments);
+            this.save_point = this.record.data;
+        },
+
+        _renderEdit: function() {
+            this._super.apply(this, arguments);
+            this.$el.addClass('oe_dynamic_selection');
+            this._dynamic_selection();
         },
 
     });
