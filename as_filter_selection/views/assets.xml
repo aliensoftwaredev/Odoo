@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Part of Alien Software - aliensoftware.dev
+-->
+<odoo>
+    <template id="assets_backend" name="as_filter_selection_assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/as_filter_selection/static/src/js/widget.js"></script>
+        </xpath>
+    </template>
+</odoo>
