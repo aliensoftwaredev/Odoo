@@ -1,0 +1,4283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="district_001" model="res.country.district">
+			<field name="name">Quận Ba Đình</field>
+			<field name="code">001</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_002" model="res.country.district">
+			<field name="name">Quận Hoàn Kiếm</field>
+			<field name="code">002</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_003" model="res.country.district">
+			<field name="name">Quận Tây Hồ</field>
+			<field name="code">003</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_004" model="res.country.district">
+			<field name="name">Quận Long Biên</field>
+			<field name="code">004</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_005" model="res.country.district">
+			<field name="name">Quận Cầu Giấy</field>
+			<field name="code">005</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_006" model="res.country.district">
+			<field name="name">Quận Đống Đa</field>
+			<field name="code">006</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_007" model="res.country.district">
+			<field name="name">Quận Hai Bà Trưng</field>
+			<field name="code">007</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_008" model="res.country.district">
+			<field name="name">Quận Hoàng Mai</field>
+			<field name="code">008</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_009" model="res.country.district">
+			<field name="name">Quận Thanh Xuân</field>
+			<field name="code">009</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_016" model="res.country.district">
+			<field name="name">Huyện Sóc Sơn</field>
+			<field name="code">016</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_017" model="res.country.district">
+			<field name="name">Huyện Đông Anh</field>
+			<field name="code">017</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_018" model="res.country.district">
+			<field name="name">Huyện Gia Lâm</field>
+			<field name="code">018</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_019" model="res.country.district">
+			<field name="name">Quận Nam Từ Liêm</field>
+			<field name="code">019</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_020" model="res.country.district">
+			<field name="name">Huyện Thanh Trì</field>
+			<field name="code">020</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_021" model="res.country.district">
+			<field name="name">Quận Bắc Từ Liêm</field>
+			<field name="code">021</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_250" model="res.country.district">
+			<field name="name">Huyện Mê Linh</field>
+			<field name="code">250</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_268" model="res.country.district">
+			<field name="name">Quận Hà Đông</field>
+			<field name="code">268</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_269" model="res.country.district">
+			<field name="name">Thị xã Sơn Tây</field>
+			<field name="code">269</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_271" model="res.country.district">
+			<field name="name">Huyện Ba Vì</field>
+			<field name="code">271</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_272" model="res.country.district">
+			<field name="name">Huyện Phúc Thọ</field>
+			<field name="code">272</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_273" model="res.country.district">
+			<field name="name">Huyện Đan Phượng</field>
+			<field name="code">273</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_274" model="res.country.district">
+			<field name="name">Huyện Hoài Đức</field>
+			<field name="code">274</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_275" model="res.country.district">
+			<field name="name">Huyện Quốc Oai</field>
+			<field name="code">275</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_276" model="res.country.district">
+			<field name="name">Huyện Thạch Thất</field>
+			<field name="code">276</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_277" model="res.country.district">
+			<field name="name">Huyện Chương Mỹ</field>
+			<field name="code">277</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_278" model="res.country.district">
+			<field name="name">Huyện Thanh Oai</field>
+			<field name="code">278</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_279" model="res.country.district">
+			<field name="name">Huyện Thường Tín</field>
+			<field name="code">279</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_280" model="res.country.district">
+			<field name="name">Huyện Phú Xuyên</field>
+			<field name="code">280</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_281" model="res.country.district">
+			<field name="name">Huyện Ứng Hòa</field>
+			<field name="code">281</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_282" model="res.country.district">
+			<field name="name">Huyện Mỹ Đức</field>
+			<field name="code">282</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_01"/>
+		</record>
+		<record id="district_024" model="res.country.district">
+			<field name="name">Thành phố Hà Giang</field>
+			<field name="code">024</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_026" model="res.country.district">
+			<field name="name">Huyện Đồng Văn</field>
+			<field name="code">026</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_027" model="res.country.district">
+			<field name="name">Huyện Mèo Vạc</field>
+			<field name="code">027</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_028" model="res.country.district">
+			<field name="name">Huyện Yên Minh</field>
+			<field name="code">028</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_029" model="res.country.district">
+			<field name="name">Huyện Quản Bạ</field>
+			<field name="code">029</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_030" model="res.country.district">
+			<field name="name">Huyện Vị Xuyên</field>
+			<field name="code">030</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_031" model="res.country.district">
+			<field name="name">Huyện Bắc Mê</field>
+			<field name="code">031</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_032" model="res.country.district">
+			<field name="name">Huyện Hoàng Su Phì</field>
+			<field name="code">032</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_033" model="res.country.district">
+			<field name="name">Huyện Xín Mần</field>
+			<field name="code">033</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_034" model="res.country.district">
+			<field name="name">Huyện Bắc Quang</field>
+			<field name="code">034</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_035" model="res.country.district">
+			<field name="name">Huyện Quang Bình</field>
+			<field name="code">035</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_02"/>
+		</record>
+		<record id="district_040" model="res.country.district">
+			<field name="name">Thành phố Cao Bằng</field>
+			<field name="code">040</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_042" model="res.country.district">
+			<field name="name">Huyện Bảo Lâm</field>
+			<field name="code">042</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_043" model="res.country.district">
+			<field name="name">Huyện Bảo Lạc</field>
+			<field name="code">043</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_044" model="res.country.district">
+			<field name="name">Huyện Thông Nông</field>
+			<field name="code">044</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_045" model="res.country.district">
+			<field name="name">Huyện Hà Quảng</field>
+			<field name="code">045</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_046" model="res.country.district">
+			<field name="name">Huyện Trà Lĩnh</field>
+			<field name="code">046</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_047" model="res.country.district">
+			<field name="name">Huyện Trùng Khánh</field>
+			<field name="code">047</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_048" model="res.country.district">
+			<field name="name">Huyện Hạ Lang</field>
+			<field name="code">048</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_049" model="res.country.district">
+			<field name="name">Huyện Quảng Uyên</field>
+			<field name="code">049</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_050" model="res.country.district">
+			<field name="name">Huyện Phục Hoà</field>
+			<field name="code">050</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_051" model="res.country.district">
+			<field name="name">Huyện Hoà An</field>
+			<field name="code">051</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_052" model="res.country.district">
+			<field name="name">Huyện Nguyên Bình</field>
+			<field name="code">052</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_053" model="res.country.district">
+			<field name="name">Huyện Thạch An</field>
+			<field name="code">053</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_04"/>
+		</record>
+		<record id="district_058" model="res.country.district">
+			<field name="name">Thành Phố Bắc Kạn</field>
+			<field name="code">058</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_060" model="res.country.district">
+			<field name="name">Huyện Pác Nặm</field>
+			<field name="code">060</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_061" model="res.country.district">
+			<field name="name">Huyện Ba Bể</field>
+			<field name="code">061</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_062" model="res.country.district">
+			<field name="name">Huyện Ngân Sơn</field>
+			<field name="code">062</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_063" model="res.country.district">
+			<field name="name">Huyện Bạch Thông</field>
+			<field name="code">063</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_064" model="res.country.district">
+			<field name="name">Huyện Chợ Đồn</field>
+			<field name="code">064</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_065" model="res.country.district">
+			<field name="name">Huyện Chợ Mới</field>
+			<field name="code">065</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_066" model="res.country.district">
+			<field name="name">Huyện Na Rì</field>
+			<field name="code">066</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_06"/>
+		</record>
+		<record id="district_070" model="res.country.district">
+			<field name="name">Thành phố Tuyên Quang</field>
+			<field name="code">070</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_071" model="res.country.district">
+			<field name="name">Huyện Lâm Bình</field>
+			<field name="code">071</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_072" model="res.country.district">
+			<field name="name">Huyện Na Hang</field>
+			<field name="code">072</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_073" model="res.country.district">
+			<field name="name">Huyện Chiêm Hóa</field>
+			<field name="code">073</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_074" model="res.country.district">
+			<field name="name">Huyện Hàm Yên</field>
+			<field name="code">074</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_075" model="res.country.district">
+			<field name="name">Huyện Yên Sơn</field>
+			<field name="code">075</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_076" model="res.country.district">
+			<field name="name">Huyện Sơn Dương</field>
+			<field name="code">076</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_08"/>
+		</record>
+		<record id="district_080" model="res.country.district">
+			<field name="name">Thành phố Lào Cai</field>
+			<field name="code">080</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_082" model="res.country.district">
+			<field name="name">Huyện Bát Xát</field>
+			<field name="code">082</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_083" model="res.country.district">
+			<field name="name">Huyện Mường Khương</field>
+			<field name="code">083</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_084" model="res.country.district">
+			<field name="name">Huyện Si Ma Cai</field>
+			<field name="code">084</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_085" model="res.country.district">
+			<field name="name">Huyện Bắc Hà</field>
+			<field name="code">085</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_086" model="res.country.district">
+			<field name="name">Huyện Bảo Thắng</field>
+			<field name="code">086</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_087" model="res.country.district">
+			<field name="name">Huyện Bảo Yên</field>
+			<field name="code">087</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_088" model="res.country.district">
+			<field name="name">Huyện Sa Pa</field>
+			<field name="code">088</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_089" model="res.country.district">
+			<field name="name">Huyện Văn Bàn</field>
+			<field name="code">089</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_10"/>
+		</record>
+		<record id="district_094" model="res.country.district">
+			<field name="name">Thành phố Điện Biên Phủ</field>
+			<field name="code">094</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_095" model="res.country.district">
+			<field name="name">Thị Xã Mường Lay</field>
+			<field name="code">095</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_096" model="res.country.district">
+			<field name="name">Huyện Mường Nhé</field>
+			<field name="code">096</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_097" model="res.country.district">
+			<field name="name">Huyện Mường Chà</field>
+			<field name="code">097</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_098" model="res.country.district">
+			<field name="name">Huyện Tủa Chùa</field>
+			<field name="code">098</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_099" model="res.country.district">
+			<field name="name">Huyện Tuần Giáo</field>
+			<field name="code">099</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_100" model="res.country.district">
+			<field name="name">Huyện Điện Biên</field>
+			<field name="code">100</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_101" model="res.country.district">
+			<field name="name">Huyện Điện Biên Đông</field>
+			<field name="code">101</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_102" model="res.country.district">
+			<field name="name">Huyện Mường Ảng</field>
+			<field name="code">102</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_103" model="res.country.district">
+			<field name="name">Huyện Nậm Pồ</field>
+			<field name="code">103</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_11"/>
+		</record>
+		<record id="district_105" model="res.country.district">
+			<field name="name">Thành phố Lai Châu</field>
+			<field name="code">105</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_106" model="res.country.district">
+			<field name="name">Huyện Tam Đường</field>
+			<field name="code">106</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_107" model="res.country.district">
+			<field name="name">Huyện Mường Tè</field>
+			<field name="code">107</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_108" model="res.country.district">
+			<field name="name">Huyện Sìn Hồ</field>
+			<field name="code">108</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_109" model="res.country.district">
+			<field name="name">Huyện Phong Thổ</field>
+			<field name="code">109</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_110" model="res.country.district">
+			<field name="name">Huyện Than Uyên</field>
+			<field name="code">110</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_111" model="res.country.district">
+			<field name="name">Huyện Tân Uyên</field>
+			<field name="code">111</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_112" model="res.country.district">
+			<field name="name">Huyện Nậm Nhùn</field>
+			<field name="code">112</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_12"/>
+		</record>
+		<record id="district_116" model="res.country.district">
+			<field name="name">Thành phố Sơn La</field>
+			<field name="code">116</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_118" model="res.country.district">
+			<field name="name">Huyện Quỳnh Nhai</field>
+			<field name="code">118</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_119" model="res.country.district">
+			<field name="name">Huyện Thuận Châu</field>
+			<field name="code">119</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_120" model="res.country.district">
+			<field name="name">Huyện Mường La</field>
+			<field name="code">120</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_121" model="res.country.district">
+			<field name="name">Huyện Bắc Yên</field>
+			<field name="code">121</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_122" model="res.country.district">
+			<field name="name">Huyện Phù Yên</field>
+			<field name="code">122</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_123" model="res.country.district">
+			<field name="name">Huyện Mộc Châu</field>
+			<field name="code">123</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_124" model="res.country.district">
+			<field name="name">Huyện Yên Châu</field>
+			<field name="code">124</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_125" model="res.country.district">
+			<field name="name">Huyện Mai Sơn</field>
+			<field name="code">125</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_126" model="res.country.district">
+			<field name="name">Huyện Sông Mã</field>
+			<field name="code">126</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_127" model="res.country.district">
+			<field name="name">Huyện Sốp Cộp</field>
+			<field name="code">127</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_128" model="res.country.district">
+			<field name="name">Huyện Vân Hồ</field>
+			<field name="code">128</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_14"/>
+		</record>
+		<record id="district_132" model="res.country.district">
+			<field name="name">Thành phố Yên Bái</field>
+			<field name="code">132</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_133" model="res.country.district">
+			<field name="name">Thị xã Nghĩa Lộ</field>
+			<field name="code">133</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_135" model="res.country.district">
+			<field name="name">Huyện Lục Yên</field>
+			<field name="code">135</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_136" model="res.country.district">
+			<field name="name">Huyện Văn Yên</field>
+			<field name="code">136</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_137" model="res.country.district">
+			<field name="name">Huyện Mù Căng Chải</field>
+			<field name="code">137</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_138" model="res.country.district">
+			<field name="name">Huyện Trấn Yên</field>
+			<field name="code">138</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_139" model="res.country.district">
+			<field name="name">Huyện Trạm Tấu</field>
+			<field name="code">139</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_140" model="res.country.district">
+			<field name="name">Huyện Văn Chấn</field>
+			<field name="code">140</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_141" model="res.country.district">
+			<field name="name">Huyện Yên Bình</field>
+			<field name="code">141</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_15"/>
+		</record>
+		<record id="district_148" model="res.country.district">
+			<field name="name">Thành phố Hòa Bình</field>
+			<field name="code">148</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_150" model="res.country.district">
+			<field name="name">Huyện Đà Bắc</field>
+			<field name="code">150</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_151" model="res.country.district">
+			<field name="name">Huyện Kỳ Sơn</field>
+			<field name="code">151</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_152" model="res.country.district">
+			<field name="name">Huyện Lương Sơn</field>
+			<field name="code">152</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_153" model="res.country.district">
+			<field name="name">Huyện Kim Bôi</field>
+			<field name="code">153</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_154" model="res.country.district">
+			<field name="name">Huyện Cao Phong</field>
+			<field name="code">154</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_155" model="res.country.district">
+			<field name="name">Huyện Tân Lạc</field>
+			<field name="code">155</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_156" model="res.country.district">
+			<field name="name">Huyện Mai Châu</field>
+			<field name="code">156</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_157" model="res.country.district">
+			<field name="name">Huyện Lạc Sơn</field>
+			<field name="code">157</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_158" model="res.country.district">
+			<field name="name">Huyện Yên Thủy</field>
+			<field name="code">158</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_159" model="res.country.district">
+			<field name="name">Huyện Lạc Thủy</field>
+			<field name="code">159</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_17"/>
+		</record>
+		<record id="district_164" model="res.country.district">
+			<field name="name">Thành phố Thái Nguyên</field>
+			<field name="code">164</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_165" model="res.country.district">
+			<field name="name">Thành phố Sông Công</field>
+			<field name="code">165</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_167" model="res.country.district">
+			<field name="name">Huyện Định Hóa</field>
+			<field name="code">167</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_168" model="res.country.district">
+			<field name="name">Huyện Phú Lương</field>
+			<field name="code">168</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_169" model="res.country.district">
+			<field name="name">Huyện Đồng Hỷ</field>
+			<field name="code">169</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_170" model="res.country.district">
+			<field name="name">Huyện Võ Nhai</field>
+			<field name="code">170</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_171" model="res.country.district">
+			<field name="name">Huyện Đại Từ</field>
+			<field name="code">171</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_172" model="res.country.district">
+			<field name="name">Thị xã Phổ Yên</field>
+			<field name="code">172</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_173" model="res.country.district">
+			<field name="name">Huyện Phú Bình</field>
+			<field name="code">173</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_19"/>
+		</record>
+		<record id="district_178" model="res.country.district">
+			<field name="name">Thành phố Lạng Sơn</field>
+			<field name="code">178</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_180" model="res.country.district">
+			<field name="name">Huyện Tràng Định</field>
+			<field name="code">180</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_181" model="res.country.district">
+			<field name="name">Huyện Bình Gia</field>
+			<field name="code">181</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_182" model="res.country.district">
+			<field name="name">Huyện Văn Lãng</field>
+			<field name="code">182</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_183" model="res.country.district">
+			<field name="name">Huyện Cao Lộc</field>
+			<field name="code">183</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_184" model="res.country.district">
+			<field name="name">Huyện Văn Quan</field>
+			<field name="code">184</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_185" model="res.country.district">
+			<field name="name">Huyện Bắc Sơn</field>
+			<field name="code">185</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_186" model="res.country.district">
+			<field name="name">Huyện Hữu Lũng</field>
+			<field name="code">186</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_187" model="res.country.district">
+			<field name="name">Huyện Chi Lăng</field>
+			<field name="code">187</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_188" model="res.country.district">
+			<field name="name">Huyện Lộc Bình</field>
+			<field name="code">188</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_189" model="res.country.district">
+			<field name="name">Huyện Đình Lập</field>
+			<field name="code">189</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_20"/>
+		</record>
+		<record id="district_193" model="res.country.district">
+			<field name="name">Thành phố Hạ Long</field>
+			<field name="code">193</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_194" model="res.country.district">
+			<field name="name">Thành phố Móng Cái</field>
+			<field name="code">194</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_195" model="res.country.district">
+			<field name="name">Thành phố Cẩm Phả</field>
+			<field name="code">195</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_196" model="res.country.district">
+			<field name="name">Thành phố Uông Bí</field>
+			<field name="code">196</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_198" model="res.country.district">
+			<field name="name">Huyện Bình Liêu</field>
+			<field name="code">198</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_199" model="res.country.district">
+			<field name="name">Huyện Tiên Yên</field>
+			<field name="code">199</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_200" model="res.country.district">
+			<field name="name">Huyện Đầm Hà</field>
+			<field name="code">200</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_201" model="res.country.district">
+			<field name="name">Huyện Hải Hà</field>
+			<field name="code">201</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_202" model="res.country.district">
+			<field name="name">Huyện Ba Chẽ</field>
+			<field name="code">202</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_203" model="res.country.district">
+			<field name="name">Huyện Vân Đồn</field>
+			<field name="code">203</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_204" model="res.country.district">
+			<field name="name">Huyện Hoành Bồ</field>
+			<field name="code">204</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_205" model="res.country.district">
+			<field name="name">Thị xã Đông Triều</field>
+			<field name="code">205</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_206" model="res.country.district">
+			<field name="name">Thị xã Quảng Yên</field>
+			<field name="code">206</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_207" model="res.country.district">
+			<field name="name">Huyện Cô Tô</field>
+			<field name="code">207</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_22"/>
+		</record>
+		<record id="district_213" model="res.country.district">
+			<field name="name">Thành phố Bắc Giang</field>
+			<field name="code">213</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_215" model="res.country.district">
+			<field name="name">Huyện Yên Thế</field>
+			<field name="code">215</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_216" model="res.country.district">
+			<field name="name">Huyện Tân Yên</field>
+			<field name="code">216</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_217" model="res.country.district">
+			<field name="name">Huyện Lạng Giang</field>
+			<field name="code">217</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_218" model="res.country.district">
+			<field name="name">Huyện Lục Nam</field>
+			<field name="code">218</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_219" model="res.country.district">
+			<field name="name">Huyện Lục Ngạn</field>
+			<field name="code">219</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_220" model="res.country.district">
+			<field name="name">Huyện Sơn Động</field>
+			<field name="code">220</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_221" model="res.country.district">
+			<field name="name">Huyện Yên Dũng</field>
+			<field name="code">221</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_222" model="res.country.district">
+			<field name="name">Huyện Việt Yên</field>
+			<field name="code">222</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_223" model="res.country.district">
+			<field name="name">Huyện Hiệp Hòa</field>
+			<field name="code">223</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_24"/>
+		</record>
+		<record id="district_227" model="res.country.district">
+			<field name="name">Thành phố Việt Trì</field>
+			<field name="code">227</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_228" model="res.country.district">
+			<field name="name">Thị xã Phú Thọ</field>
+			<field name="code">228</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_230" model="res.country.district">
+			<field name="name">Huyện Đoan Hùng</field>
+			<field name="code">230</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_231" model="res.country.district">
+			<field name="name">Huyện Hạ Hoà</field>
+			<field name="code">231</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_232" model="res.country.district">
+			<field name="name">Huyện Thanh Ba</field>
+			<field name="code">232</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_233" model="res.country.district">
+			<field name="name">Huyện Phù Ninh</field>
+			<field name="code">233</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_234" model="res.country.district">
+			<field name="name">Huyện Yên Lập</field>
+			<field name="code">234</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_235" model="res.country.district">
+			<field name="name">Huyện Cẩm Khê</field>
+			<field name="code">235</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_236" model="res.country.district">
+			<field name="name">Huyện Tam Nông</field>
+			<field name="code">236</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_237" model="res.country.district">
+			<field name="name">Huyện Lâm Thao</field>
+			<field name="code">237</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_238" model="res.country.district">
+			<field name="name">Huyện Thanh Sơn</field>
+			<field name="code">238</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_239" model="res.country.district">
+			<field name="name">Huyện Thanh Thuỷ</field>
+			<field name="code">239</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_240" model="res.country.district">
+			<field name="name">Huyện Tân Sơn</field>
+			<field name="code">240</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_25"/>
+		</record>
+		<record id="district_243" model="res.country.district">
+			<field name="name">Thành phố Vĩnh Yên</field>
+			<field name="code">243</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_244" model="res.country.district">
+			<field name="name">Thành phố Phúc Yên</field>
+			<field name="code">244</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_246" model="res.country.district">
+			<field name="name">Huyện Lập Thạch</field>
+			<field name="code">246</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_247" model="res.country.district">
+			<field name="name">Huyện Tam Dương</field>
+			<field name="code">247</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_248" model="res.country.district">
+			<field name="name">Huyện Tam Đảo</field>
+			<field name="code">248</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_249" model="res.country.district">
+			<field name="name">Huyện Bình Xuyên</field>
+			<field name="code">249</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_251" model="res.country.district">
+			<field name="name">Huyện Yên Lạc</field>
+			<field name="code">251</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_252" model="res.country.district">
+			<field name="name">Huyện Vĩnh Tường</field>
+			<field name="code">252</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_253" model="res.country.district">
+			<field name="name">Huyện Sông Lô</field>
+			<field name="code">253</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_26"/>
+		</record>
+		<record id="district_256" model="res.country.district">
+			<field name="name">Thành phố Bắc Ninh</field>
+			<field name="code">256</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_258" model="res.country.district">
+			<field name="name">Huyện Yên Phong</field>
+			<field name="code">258</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_259" model="res.country.district">
+			<field name="name">Huyện Quế Võ</field>
+			<field name="code">259</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_260" model="res.country.district">
+			<field name="name">Huyện Tiên Du</field>
+			<field name="code">260</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_261" model="res.country.district">
+			<field name="name">Thị xã Từ Sơn</field>
+			<field name="code">261</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_262" model="res.country.district">
+			<field name="name">Huyện Thuận Thành</field>
+			<field name="code">262</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_263" model="res.country.district">
+			<field name="name">Huyện Gia Bình</field>
+			<field name="code">263</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_264" model="res.country.district">
+			<field name="name">Huyện Lương Tài</field>
+			<field name="code">264</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_27"/>
+		</record>
+		<record id="district_288" model="res.country.district">
+			<field name="name">Thành phố Hải Dương</field>
+			<field name="code">288</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_290" model="res.country.district">
+			<field name="name">Thành phố Chí Linh</field>
+			<field name="code">290</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_291" model="res.country.district">
+			<field name="name">Huyện Nam Sách</field>
+			<field name="code">291</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_292" model="res.country.district">
+			<field name="name">Huyện Kinh Môn</field>
+			<field name="code">292</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_293" model="res.country.district">
+			<field name="name">Huyện Kim Thành</field>
+			<field name="code">293</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_294" model="res.country.district">
+			<field name="name">Huyện Thanh Hà</field>
+			<field name="code">294</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_295" model="res.country.district">
+			<field name="name">Huyện Cẩm Giàng</field>
+			<field name="code">295</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_296" model="res.country.district">
+			<field name="name">Huyện Bình Giang</field>
+			<field name="code">296</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_297" model="res.country.district">
+			<field name="name">Huyện Gia Lộc</field>
+			<field name="code">297</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_298" model="res.country.district">
+			<field name="name">Huyện Tứ Kỳ</field>
+			<field name="code">298</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_299" model="res.country.district">
+			<field name="name">Huyện Ninh Giang</field>
+			<field name="code">299</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_300" model="res.country.district">
+			<field name="name">Huyện Thanh Miện</field>
+			<field name="code">300</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_30"/>
+		</record>
+		<record id="district_303" model="res.country.district">
+			<field name="name">Quận Hồng Bàng</field>
+			<field name="code">303</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_304" model="res.country.district">
+			<field name="name">Quận Ngô Quyền</field>
+			<field name="code">304</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_305" model="res.country.district">
+			<field name="name">Quận Lê Chân</field>
+			<field name="code">305</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_306" model="res.country.district">
+			<field name="name">Quận Hải An</field>
+			<field name="code">306</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_307" model="res.country.district">
+			<field name="name">Quận Kiến An</field>
+			<field name="code">307</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_308" model="res.country.district">
+			<field name="name">Quận Đồ Sơn</field>
+			<field name="code">308</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_309" model="res.country.district">
+			<field name="name">Quận Dương Kinh</field>
+			<field name="code">309</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_311" model="res.country.district">
+			<field name="name">Huyện Thuỷ Nguyên</field>
+			<field name="code">311</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_312" model="res.country.district">
+			<field name="name">Huyện An Dương</field>
+			<field name="code">312</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_313" model="res.country.district">
+			<field name="name">Huyện An Lão</field>
+			<field name="code">313</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_314" model="res.country.district">
+			<field name="name">Huyện Kiến Thuỵ</field>
+			<field name="code">314</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_315" model="res.country.district">
+			<field name="name">Huyện Tiên Lãng</field>
+			<field name="code">315</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_316" model="res.country.district">
+			<field name="name">Huyện Vĩnh Bảo</field>
+			<field name="code">316</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_317" model="res.country.district">
+			<field name="name">Huyện Cát Hải</field>
+			<field name="code">317</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_318" model="res.country.district">
+			<field name="name">Huyện Bạch Long Vĩ</field>
+			<field name="code">318</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_31"/>
+		</record>
+		<record id="district_323" model="res.country.district">
+			<field name="name">Thành phố Hưng Yên</field>
+			<field name="code">323</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_325" model="res.country.district">
+			<field name="name">Huyện Văn Lâm</field>
+			<field name="code">325</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_326" model="res.country.district">
+			<field name="name">Huyện Văn Giang</field>
+			<field name="code">326</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_327" model="res.country.district">
+			<field name="name">Huyện Yên Mỹ</field>
+			<field name="code">327</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_328" model="res.country.district">
+			<field name="name">Thị xã Mỹ Hào</field>
+			<field name="code">328</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_329" model="res.country.district">
+			<field name="name">Huyện Ân Thi</field>
+			<field name="code">329</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_330" model="res.country.district">
+			<field name="name">Huyện Khoái Châu</field>
+			<field name="code">330</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_331" model="res.country.district">
+			<field name="name">Huyện Kim Động</field>
+			<field name="code">331</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_332" model="res.country.district">
+			<field name="name">Huyện Tiên Lữ</field>
+			<field name="code">332</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_333" model="res.country.district">
+			<field name="name">Huyện Phù Cừ</field>
+			<field name="code">333</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_33"/>
+		</record>
+		<record id="district_336" model="res.country.district">
+			<field name="name">Thành phố Thái Bình</field>
+			<field name="code">336</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_338" model="res.country.district">
+			<field name="name">Huyện Quỳnh Phụ</field>
+			<field name="code">338</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_339" model="res.country.district">
+			<field name="name">Huyện Hưng Hà</field>
+			<field name="code">339</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_340" model="res.country.district">
+			<field name="name">Huyện Đông Hưng</field>
+			<field name="code">340</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_341" model="res.country.district">
+			<field name="name">Huyện Thái Thụy</field>
+			<field name="code">341</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_342" model="res.country.district">
+			<field name="name">Huyện Tiền Hải</field>
+			<field name="code">342</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_343" model="res.country.district">
+			<field name="name">Huyện Kiến Xương</field>
+			<field name="code">343</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_344" model="res.country.district">
+			<field name="name">Huyện Vũ Thư</field>
+			<field name="code">344</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_34"/>
+		</record>
+		<record id="district_347" model="res.country.district">
+			<field name="name">Thành phố Phủ Lý</field>
+			<field name="code">347</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_35"/>
+		</record>
+		<record id="district_349" model="res.country.district">
+			<field name="name">Huyện Duy Tiên</field>
+			<field name="code">349</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_35"/>
+		</record>
+		<record id="district_350" model="res.country.district">
+			<field name="name">Huyện Kim Bảng</field>
+			<field name="code">350</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_35"/>
+		</record>
+		<record id="district_351" model="res.country.district">
+			<field name="name">Huyện Thanh Liêm</field>
+			<field name="code">351</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_35"/>
+		</record>
+		<record id="district_352" model="res.country.district">
+			<field name="name">Huyện Bình Lục</field>
+			<field name="code">352</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_35"/>
+		</record>
+		<record id="district_353" model="res.country.district">
+			<field name="name">Huyện Lý Nhân</field>
+			<field name="code">353</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_35"/>
+		</record>
+		<record id="district_356" model="res.country.district">
+			<field name="name">Thành phố Nam Định</field>
+			<field name="code">356</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_358" model="res.country.district">
+			<field name="name">Huyện Mỹ Lộc</field>
+			<field name="code">358</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_359" model="res.country.district">
+			<field name="name">Huyện Vụ Bản</field>
+			<field name="code">359</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_360" model="res.country.district">
+			<field name="name">Huyện Ý Yên</field>
+			<field name="code">360</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_361" model="res.country.district">
+			<field name="name">Huyện Nghĩa Hưng</field>
+			<field name="code">361</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_362" model="res.country.district">
+			<field name="name">Huyện Nam Trực</field>
+			<field name="code">362</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_363" model="res.country.district">
+			<field name="name">Huyện Trực Ninh</field>
+			<field name="code">363</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_364" model="res.country.district">
+			<field name="name">Huyện Xuân Trường</field>
+			<field name="code">364</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_365" model="res.country.district">
+			<field name="name">Huyện Giao Thủy</field>
+			<field name="code">365</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_366" model="res.country.district">
+			<field name="name">Huyện Hải Hậu</field>
+			<field name="code">366</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_36"/>
+		</record>
+		<record id="district_369" model="res.country.district">
+			<field name="name">Thành phố Ninh Bình</field>
+			<field name="code">369</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_370" model="res.country.district">
+			<field name="name">Thành phố Tam Điệp</field>
+			<field name="code">370</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_372" model="res.country.district">
+			<field name="name">Huyện Nho Quan</field>
+			<field name="code">372</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_373" model="res.country.district">
+			<field name="name">Huyện Gia Viễn</field>
+			<field name="code">373</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_374" model="res.country.district">
+			<field name="name">Huyện Hoa Lư</field>
+			<field name="code">374</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_375" model="res.country.district">
+			<field name="name">Huyện Yên Khánh</field>
+			<field name="code">375</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_376" model="res.country.district">
+			<field name="name">Huyện Kim Sơn</field>
+			<field name="code">376</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_377" model="res.country.district">
+			<field name="name">Huyện Yên Mô</field>
+			<field name="code">377</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_37"/>
+		</record>
+		<record id="district_380" model="res.country.district">
+			<field name="name">Thành phố Thanh Hóa</field>
+			<field name="code">380</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_381" model="res.country.district">
+			<field name="name">Thị xã Bỉm Sơn</field>
+			<field name="code">381</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_382" model="res.country.district">
+			<field name="name">Thành phố Sầm Sơn</field>
+			<field name="code">382</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_384" model="res.country.district">
+			<field name="name">Huyện Mường Lát</field>
+			<field name="code">384</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_385" model="res.country.district">
+			<field name="name">Huyện Quan Hóa</field>
+			<field name="code">385</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_386" model="res.country.district">
+			<field name="name">Huyện Bá Thước</field>
+			<field name="code">386</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_387" model="res.country.district">
+			<field name="name">Huyện Quan Sơn</field>
+			<field name="code">387</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_388" model="res.country.district">
+			<field name="name">Huyện Lang Chánh</field>
+			<field name="code">388</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_389" model="res.country.district">
+			<field name="name">Huyện Ngọc Lặc</field>
+			<field name="code">389</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_390" model="res.country.district">
+			<field name="name">Huyện Cẩm Thủy</field>
+			<field name="code">390</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_391" model="res.country.district">
+			<field name="name">Huyện Thạch Thành</field>
+			<field name="code">391</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_392" model="res.country.district">
+			<field name="name">Huyện Hà Trung</field>
+			<field name="code">392</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_393" model="res.country.district">
+			<field name="name">Huyện Vĩnh Lộc</field>
+			<field name="code">393</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_394" model="res.country.district">
+			<field name="name">Huyện Yên Định</field>
+			<field name="code">394</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_395" model="res.country.district">
+			<field name="name">Huyện Thọ Xuân</field>
+			<field name="code">395</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_396" model="res.country.district">
+			<field name="name">Huyện Thường Xuân</field>
+			<field name="code">396</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_397" model="res.country.district">
+			<field name="name">Huyện Triệu Sơn</field>
+			<field name="code">397</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_398" model="res.country.district">
+			<field name="name">Huyện Thiệu Hóa</field>
+			<field name="code">398</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_399" model="res.country.district">
+			<field name="name">Huyện Hoằng Hóa</field>
+			<field name="code">399</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_400" model="res.country.district">
+			<field name="name">Huyện Hậu Lộc</field>
+			<field name="code">400</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_401" model="res.country.district">
+			<field name="name">Huyện Nga Sơn</field>
+			<field name="code">401</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_402" model="res.country.district">
+			<field name="name">Huyện Như Xuân</field>
+			<field name="code">402</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_403" model="res.country.district">
+			<field name="name">Huyện Như Thanh</field>
+			<field name="code">403</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_404" model="res.country.district">
+			<field name="name">Huyện Nông Cống</field>
+			<field name="code">404</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_405" model="res.country.district">
+			<field name="name">Huyện Đông Sơn</field>
+			<field name="code">405</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_406" model="res.country.district">
+			<field name="name">Huyện Quảng Xương</field>
+			<field name="code">406</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_407" model="res.country.district">
+			<field name="name">Huyện Tĩnh Gia</field>
+			<field name="code">407</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_38"/>
+		</record>
+		<record id="district_412" model="res.country.district">
+			<field name="name">Thành phố Vinh</field>
+			<field name="code">412</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_413" model="res.country.district">
+			<field name="name">Thị xã Cửa Lò</field>
+			<field name="code">413</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_414" model="res.country.district">
+			<field name="name">Thị xã Thái Hoà</field>
+			<field name="code">414</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_415" model="res.country.district">
+			<field name="name">Huyện Quế Phong</field>
+			<field name="code">415</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_416" model="res.country.district">
+			<field name="name">Huyện Quỳ Châu</field>
+			<field name="code">416</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_417" model="res.country.district">
+			<field name="name">Huyện Kỳ Sơn</field>
+			<field name="code">417</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_418" model="res.country.district">
+			<field name="name">Huyện Tương Dương</field>
+			<field name="code">418</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_419" model="res.country.district">
+			<field name="name">Huyện Nghĩa Đàn</field>
+			<field name="code">419</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_420" model="res.country.district">
+			<field name="name">Huyện Quỳ Hợp</field>
+			<field name="code">420</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_421" model="res.country.district">
+			<field name="name">Huyện Quỳnh Lưu</field>
+			<field name="code">421</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_422" model="res.country.district">
+			<field name="name">Huyện Con Cuông</field>
+			<field name="code">422</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_423" model="res.country.district">
+			<field name="name">Huyện Tân Kỳ</field>
+			<field name="code">423</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_424" model="res.country.district">
+			<field name="name">Huyện Anh Sơn</field>
+			<field name="code">424</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_425" model="res.country.district">
+			<field name="name">Huyện Diễn Châu</field>
+			<field name="code">425</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_426" model="res.country.district">
+			<field name="name">Huyện Yên Thành</field>
+			<field name="code">426</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_427" model="res.country.district">
+			<field name="name">Huyện Đô Lương</field>
+			<field name="code">427</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_428" model="res.country.district">
+			<field name="name">Huyện Thanh Chương</field>
+			<field name="code">428</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_429" model="res.country.district">
+			<field name="name">Huyện Nghi Lộc</field>
+			<field name="code">429</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_430" model="res.country.district">
+			<field name="name">Huyện Nam Đàn</field>
+			<field name="code">430</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_431" model="res.country.district">
+			<field name="name">Huyện Hưng Nguyên</field>
+			<field name="code">431</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_432" model="res.country.district">
+			<field name="name">Thị xã Hoàng Mai</field>
+			<field name="code">432</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_40"/>
+		</record>
+		<record id="district_436" model="res.country.district">
+			<field name="name">Thành phố Hà Tĩnh</field>
+			<field name="code">436</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_437" model="res.country.district">
+			<field name="name">Thị xã Hồng Lĩnh</field>
+			<field name="code">437</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_439" model="res.country.district">
+			<field name="name">Huyện Hương Sơn</field>
+			<field name="code">439</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_440" model="res.country.district">
+			<field name="name">Huyện Đức Thọ</field>
+			<field name="code">440</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_441" model="res.country.district">
+			<field name="name">Huyện Vũ Quang</field>
+			<field name="code">441</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_442" model="res.country.district">
+			<field name="name">Huyện Nghi Xuân</field>
+			<field name="code">442</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_443" model="res.country.district">
+			<field name="name">Huyện Can Lộc</field>
+			<field name="code">443</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_444" model="res.country.district">
+			<field name="name">Huyện Hương Khê</field>
+			<field name="code">444</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_445" model="res.country.district">
+			<field name="name">Huyện Thạch Hà</field>
+			<field name="code">445</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_446" model="res.country.district">
+			<field name="name">Huyện Cẩm Xuyên</field>
+			<field name="code">446</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_449" model="res.country.district">
+			<field name="name">Thị xã Kỳ Anh</field>
+			<field name="code">449</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_448" model="res.country.district">
+			<field name="name">Huyện Lộc Hà</field>
+			<field name="code">448</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_447" model="res.country.district">
+			<field name="name">Huyện Kỳ Anh</field>
+			<field name="code">447</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_42"/>
+		</record>
+		<record id="district_450" model="res.country.district">
+			<field name="name">Thành Phố Đồng Hới</field>
+			<field name="code">450</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_452" model="res.country.district">
+			<field name="name">Huyện Minh Hóa</field>
+			<field name="code">452</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_453" model="res.country.district">
+			<field name="name">Huyện Tuyên Hóa</field>
+			<field name="code">453</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_454" model="res.country.district">
+			<field name="name">Huyện Quảng Trạch</field>
+			<field name="code">454</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_455" model="res.country.district">
+			<field name="name">Huyện Bố Trạch</field>
+			<field name="code">455</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_456" model="res.country.district">
+			<field name="name">Huyện Quảng Ninh</field>
+			<field name="code">456</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_457" model="res.country.district">
+			<field name="name">Huyện Lệ Thủy</field>
+			<field name="code">457</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_458" model="res.country.district">
+			<field name="name">Thị xã Ba Đồn</field>
+			<field name="code">458</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_44"/>
+		</record>
+		<record id="district_461" model="res.country.district">
+			<field name="name">Thành phố Đông Hà</field>
+			<field name="code">461</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_462" model="res.country.district">
+			<field name="name">Thị xã Quảng Trị</field>
+			<field name="code">462</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_464" model="res.country.district">
+			<field name="name">Huyện Vĩnh Linh</field>
+			<field name="code">464</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_465" model="res.country.district">
+			<field name="name">Huyện Hướng Hóa</field>
+			<field name="code">465</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_466" model="res.country.district">
+			<field name="name">Huyện Gio Linh</field>
+			<field name="code">466</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_467" model="res.country.district">
+			<field name="name">Huyện Đa Krông</field>
+			<field name="code">467</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_468" model="res.country.district">
+			<field name="name">Huyện Cam Lộ</field>
+			<field name="code">468</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_469" model="res.country.district">
+			<field name="name">Huyện Triệu Phong</field>
+			<field name="code">469</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_470" model="res.country.district">
+			<field name="name">Huyện Hải Lăng</field>
+			<field name="code">470</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_471" model="res.country.district">
+			<field name="name">Huyện Cồn Cỏ</field>
+			<field name="code">471</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_45"/>
+		</record>
+		<record id="district_474" model="res.country.district">
+			<field name="name">Thành phố Huế</field>
+			<field name="code">474</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_476" model="res.country.district">
+			<field name="name">Huyện Phong Điền</field>
+			<field name="code">476</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_477" model="res.country.district">
+			<field name="name">Huyện Quảng Điền</field>
+			<field name="code">477</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_478" model="res.country.district">
+			<field name="name">Huyện Phú Vang</field>
+			<field name="code">478</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_479" model="res.country.district">
+			<field name="name">Thị xã Hương Thủy</field>
+			<field name="code">479</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_480" model="res.country.district">
+			<field name="name">Thị xã Hương Trà</field>
+			<field name="code">480</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_481" model="res.country.district">
+			<field name="name">Huyện A Lưới</field>
+			<field name="code">481</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_482" model="res.country.district">
+			<field name="name">Huyện Phú Lộc</field>
+			<field name="code">482</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_483" model="res.country.district">
+			<field name="name">Huyện Nam Đông</field>
+			<field name="code">483</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_46"/>
+		</record>
+		<record id="district_490" model="res.country.district">
+			<field name="name">Quận Liên Chiểu</field>
+			<field name="code">490</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_491" model="res.country.district">
+			<field name="name">Quận Thanh Khê</field>
+			<field name="code">491</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_492" model="res.country.district">
+			<field name="name">Quận Hải Châu</field>
+			<field name="code">492</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_493" model="res.country.district">
+			<field name="name">Quận Sơn Trà</field>
+			<field name="code">493</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_494" model="res.country.district">
+			<field name="name">Quận Ngũ Hành Sơn</field>
+			<field name="code">494</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_495" model="res.country.district">
+			<field name="name">Quận Cẩm Lệ</field>
+			<field name="code">495</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_497" model="res.country.district">
+			<field name="name">Huyện Hòa Vang</field>
+			<field name="code">497</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_498" model="res.country.district">
+			<field name="name">Huyện Hoàng Sa</field>
+			<field name="code">498</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_48"/>
+		</record>
+		<record id="district_502" model="res.country.district">
+			<field name="name">Thành phố Tam Kỳ</field>
+			<field name="code">502</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_503" model="res.country.district">
+			<field name="name">Thành phố Hội An</field>
+			<field name="code">503</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_504" model="res.country.district">
+			<field name="name">Huyện Tây Giang</field>
+			<field name="code">504</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_505" model="res.country.district">
+			<field name="name">Huyện Đông Giang</field>
+			<field name="code">505</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_506" model="res.country.district">
+			<field name="name">Huyện Đại Lộc</field>
+			<field name="code">506</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_507" model="res.country.district">
+			<field name="name">Thị xã Điện Bàn</field>
+			<field name="code">507</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_508" model="res.country.district">
+			<field name="name">Huyện Duy Xuyên</field>
+			<field name="code">508</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_509" model="res.country.district">
+			<field name="name">Huyện Quế Sơn</field>
+			<field name="code">509</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_510" model="res.country.district">
+			<field name="name">Huyện Nam Giang</field>
+			<field name="code">510</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_511" model="res.country.district">
+			<field name="name">Huyện Phước Sơn</field>
+			<field name="code">511</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_512" model="res.country.district">
+			<field name="name">Huyện Hiệp Đức</field>
+			<field name="code">512</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_513" model="res.country.district">
+			<field name="name">Huyện Thăng Bình</field>
+			<field name="code">513</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_514" model="res.country.district">
+			<field name="name">Huyện Tiên Phước</field>
+			<field name="code">514</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_515" model="res.country.district">
+			<field name="name">Huyện Bắc Trà My</field>
+			<field name="code">515</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_516" model="res.country.district">
+			<field name="name">Huyện Nam Trà My</field>
+			<field name="code">516</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_517" model="res.country.district">
+			<field name="name">Huyện Núi Thành</field>
+			<field name="code">517</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_518" model="res.country.district">
+			<field name="name">Huyện Phú Ninh</field>
+			<field name="code">518</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_519" model="res.country.district">
+			<field name="name">Huyện Nông Sơn</field>
+			<field name="code">519</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_49"/>
+		</record>
+		<record id="district_522" model="res.country.district">
+			<field name="name">Thành phố Quảng Ngãi</field>
+			<field name="code">522</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_524" model="res.country.district">
+			<field name="name">Huyện Bình Sơn</field>
+			<field name="code">524</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_525" model="res.country.district">
+			<field name="name">Huyện Trà Bồng</field>
+			<field name="code">525</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_526" model="res.country.district">
+			<field name="name">Huyện Tây Trà</field>
+			<field name="code">526</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_527" model="res.country.district">
+			<field name="name">Huyện Sơn Tịnh</field>
+			<field name="code">527</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_528" model="res.country.district">
+			<field name="name">Huyện Tư Nghĩa</field>
+			<field name="code">528</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_529" model="res.country.district">
+			<field name="name">Huyện Sơn Hà</field>
+			<field name="code">529</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_530" model="res.country.district">
+			<field name="name">Huyện Sơn Tây</field>
+			<field name="code">530</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_531" model="res.country.district">
+			<field name="name">Huyện Minh Long</field>
+			<field name="code">531</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_532" model="res.country.district">
+			<field name="name">Huyện Nghĩa Hành</field>
+			<field name="code">532</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_533" model="res.country.district">
+			<field name="name">Huyện Mộ Đức</field>
+			<field name="code">533</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_534" model="res.country.district">
+			<field name="name">Huyện Đức Phổ</field>
+			<field name="code">534</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_535" model="res.country.district">
+			<field name="name">Huyện Ba Tơ</field>
+			<field name="code">535</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_536" model="res.country.district">
+			<field name="name">Huyện Lý Sơn</field>
+			<field name="code">536</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_51"/>
+		</record>
+		<record id="district_540" model="res.country.district">
+			<field name="name">Thành phố Qui Nhơn</field>
+			<field name="code">540</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_542" model="res.country.district">
+			<field name="name">Huyện An Lão</field>
+			<field name="code">542</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_543" model="res.country.district">
+			<field name="name">Huyện Hoài Nhơn</field>
+			<field name="code">543</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_544" model="res.country.district">
+			<field name="name">Huyện Hoài Ân</field>
+			<field name="code">544</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_545" model="res.country.district">
+			<field name="name">Huyện Phù Mỹ</field>
+			<field name="code">545</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_546" model="res.country.district">
+			<field name="name">Huyện Vĩnh Thạnh</field>
+			<field name="code">546</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_547" model="res.country.district">
+			<field name="name">Huyện Tây Sơn</field>
+			<field name="code">547</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_548" model="res.country.district">
+			<field name="name">Huyện Phù Cát</field>
+			<field name="code">548</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_549" model="res.country.district">
+			<field name="name">Thị xã An Nhơn</field>
+			<field name="code">549</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_550" model="res.country.district">
+			<field name="name">Huyện Tuy Phước</field>
+			<field name="code">550</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_551" model="res.country.district">
+			<field name="name">Huyện Vân Canh</field>
+			<field name="code">551</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_52"/>
+		</record>
+		<record id="district_555" model="res.country.district">
+			<field name="name">Thành phố Tuy Hoà</field>
+			<field name="code">555</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_557" model="res.country.district">
+			<field name="name">Thị xã Sông Cầu</field>
+			<field name="code">557</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_558" model="res.country.district">
+			<field name="name">Huyện Đồng Xuân</field>
+			<field name="code">558</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_559" model="res.country.district">
+			<field name="name">Huyện Tuy An</field>
+			<field name="code">559</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_560" model="res.country.district">
+			<field name="name">Huyện Sơn Hòa</field>
+			<field name="code">560</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_561" model="res.country.district">
+			<field name="name">Huyện Sông Hinh</field>
+			<field name="code">561</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_562" model="res.country.district">
+			<field name="name">Huyện Tây Hoà</field>
+			<field name="code">562</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_563" model="res.country.district">
+			<field name="name">Huyện Phú Hoà</field>
+			<field name="code">563</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_564" model="res.country.district">
+			<field name="name">Huyện Đông Hòa</field>
+			<field name="code">564</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_54"/>
+		</record>
+		<record id="district_568" model="res.country.district">
+			<field name="name">Thành phố Nha Trang</field>
+			<field name="code">568</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_569" model="res.country.district">
+			<field name="name">Thành phố Cam Ranh</field>
+			<field name="code">569</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_570" model="res.country.district">
+			<field name="name">Huyện Cam Lâm</field>
+			<field name="code">570</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_571" model="res.country.district">
+			<field name="name">Huyện Vạn Ninh</field>
+			<field name="code">571</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_572" model="res.country.district">
+			<field name="name">Thị xã Ninh Hòa</field>
+			<field name="code">572</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_573" model="res.country.district">
+			<field name="name">Huyện Khánh Vĩnh</field>
+			<field name="code">573</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_574" model="res.country.district">
+			<field name="name">Huyện Diên Khánh</field>
+			<field name="code">574</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_575" model="res.country.district">
+			<field name="name">Huyện Khánh Sơn</field>
+			<field name="code">575</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_576" model="res.country.district">
+			<field name="name">Huyện Trường Sa</field>
+			<field name="code">576</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_56"/>
+		</record>
+		<record id="district_582" model="res.country.district">
+			<field name="name">Thành phố Phan Rang-Tháp Chàm</field>
+			<field name="code">582</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_584" model="res.country.district">
+			<field name="name">Huyện Bác Ái</field>
+			<field name="code">584</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_585" model="res.country.district">
+			<field name="name">Huyện Ninh Sơn</field>
+			<field name="code">585</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_586" model="res.country.district">
+			<field name="name">Huyện Ninh Hải</field>
+			<field name="code">586</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_587" model="res.country.district">
+			<field name="name">Huyện Ninh Phước</field>
+			<field name="code">587</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_588" model="res.country.district">
+			<field name="name">Huyện Thuận Bắc</field>
+			<field name="code">588</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_589" model="res.country.district">
+			<field name="name">Huyện Thuận Nam</field>
+			<field name="code">589</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_58"/>
+		</record>
+		<record id="district_593" model="res.country.district">
+			<field name="name">Thành phố Phan Thiết</field>
+			<field name="code">593</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_594" model="res.country.district">
+			<field name="name">Thị xã La Gi</field>
+			<field name="code">594</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_595" model="res.country.district">
+			<field name="name">Huyện Tuy Phong</field>
+			<field name="code">595</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_596" model="res.country.district">
+			<field name="name">Huyện Bắc Bình</field>
+			<field name="code">596</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_597" model="res.country.district">
+			<field name="name">Huyện Hàm Thuận Bắc</field>
+			<field name="code">597</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_598" model="res.country.district">
+			<field name="name">Huyện Hàm Thuận Nam</field>
+			<field name="code">598</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_599" model="res.country.district">
+			<field name="name">Huyện Tánh Linh</field>
+			<field name="code">599</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_600" model="res.country.district">
+			<field name="name">Huyện Đức Linh</field>
+			<field name="code">600</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_601" model="res.country.district">
+			<field name="name">Huyện Hàm Tân</field>
+			<field name="code">601</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_602" model="res.country.district">
+			<field name="name">Huyện Phú Quí</field>
+			<field name="code">602</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_60"/>
+		</record>
+		<record id="district_608" model="res.country.district">
+			<field name="name">Thành phố Kon Tum</field>
+			<field name="code">608</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_610" model="res.country.district">
+			<field name="name">Huyện Đắk Glei</field>
+			<field name="code">610</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_611" model="res.country.district">
+			<field name="name">Huyện Ngọc Hồi</field>
+			<field name="code">611</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_612" model="res.country.district">
+			<field name="name">Huyện Đắk Tô</field>
+			<field name="code">612</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_613" model="res.country.district">
+			<field name="name">Huyện Kon Plông</field>
+			<field name="code">613</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_614" model="res.country.district">
+			<field name="name">Huyện Kon Rẫy</field>
+			<field name="code">614</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_615" model="res.country.district">
+			<field name="name">Huyện Đắk Hà</field>
+			<field name="code">615</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_616" model="res.country.district">
+			<field name="name">Huyện Sa Thầy</field>
+			<field name="code">616</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_617" model="res.country.district">
+			<field name="name">Huyện Tu Mơ Rông</field>
+			<field name="code">617</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_618" model="res.country.district">
+			<field name="name">Huyện Ia H' Drai</field>
+			<field name="code">618</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_62"/>
+		</record>
+		<record id="district_622" model="res.country.district">
+			<field name="name">Thành phố Pleiku</field>
+			<field name="code">622</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_623" model="res.country.district">
+			<field name="name">Thị xã An Khê</field>
+			<field name="code">623</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_624" model="res.country.district">
+			<field name="name">Thị xã Ayun Pa</field>
+			<field name="code">624</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_625" model="res.country.district">
+			<field name="name">Huyện KBang</field>
+			<field name="code">625</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_626" model="res.country.district">
+			<field name="name">Huyện Đăk Đoa</field>
+			<field name="code">626</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_627" model="res.country.district">
+			<field name="name">Huyện Chư Păh</field>
+			<field name="code">627</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_628" model="res.country.district">
+			<field name="name">Huyện Ia Grai</field>
+			<field name="code">628</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_629" model="res.country.district">
+			<field name="name">Huyện Mang Yang</field>
+			<field name="code">629</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_630" model="res.country.district">
+			<field name="name">Huyện Kông Chro</field>
+			<field name="code">630</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_631" model="res.country.district">
+			<field name="name">Huyện Đức Cơ</field>
+			<field name="code">631</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_632" model="res.country.district">
+			<field name="name">Huyện Chư Prông</field>
+			<field name="code">632</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_633" model="res.country.district">
+			<field name="name">Huyện Chư Sê</field>
+			<field name="code">633</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_634" model="res.country.district">
+			<field name="name">Huyện Đăk Pơ</field>
+			<field name="code">634</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_635" model="res.country.district">
+			<field name="name">Huyện Ia Pa</field>
+			<field name="code">635</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_637" model="res.country.district">
+			<field name="name">Huyện Krông Pa</field>
+			<field name="code">637</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_638" model="res.country.district">
+			<field name="name">Huyện Phú Thiện</field>
+			<field name="code">638</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_639" model="res.country.district">
+			<field name="name">Huyện Chư Pưh</field>
+			<field name="code">639</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_64"/>
+		</record>
+		<record id="district_643" model="res.country.district">
+			<field name="name">Thành phố Buôn Ma Thuột</field>
+			<field name="code">643</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_644" model="res.country.district">
+			<field name="name">Thị Xã Buôn Hồ</field>
+			<field name="code">644</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_645" model="res.country.district">
+			<field name="name">Huyện Ea H'leo</field>
+			<field name="code">645</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_646" model="res.country.district">
+			<field name="name">Huyện Ea Súp</field>
+			<field name="code">646</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_647" model="res.country.district">
+			<field name="name">Huyện Buôn Đôn</field>
+			<field name="code">647</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_648" model="res.country.district">
+			<field name="name">Huyện Cư M'gar</field>
+			<field name="code">648</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_649" model="res.country.district">
+			<field name="name">Huyện Krông Búk</field>
+			<field name="code">649</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_650" model="res.country.district">
+			<field name="name">Huyện Krông Năng</field>
+			<field name="code">650</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_651" model="res.country.district">
+			<field name="name">Huyện Ea Kar</field>
+			<field name="code">651</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_652" model="res.country.district">
+			<field name="name">Huyện M'Đrắk</field>
+			<field name="code">652</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_653" model="res.country.district">
+			<field name="name">Huyện Krông Bông</field>
+			<field name="code">653</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_654" model="res.country.district">
+			<field name="name">Huyện Krông Pắc</field>
+			<field name="code">654</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_655" model="res.country.district">
+			<field name="name">Huyện Krông A Na</field>
+			<field name="code">655</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_656" model="res.country.district">
+			<field name="name">Huyện Lắk</field>
+			<field name="code">656</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_657" model="res.country.district">
+			<field name="name">Huyện Cư Kuin</field>
+			<field name="code">657</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_66"/>
+		</record>
+		<record id="district_660" model="res.country.district">
+			<field name="name">Thị xã Gia Nghĩa</field>
+			<field name="code">660</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_661" model="res.country.district">
+			<field name="name">Huyện Đăk Glong</field>
+			<field name="code">661</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_662" model="res.country.district">
+			<field name="name">Huyện Cư Jút</field>
+			<field name="code">662</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_663" model="res.country.district">
+			<field name="name">Huyện Đắk Mil</field>
+			<field name="code">663</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_664" model="res.country.district">
+			<field name="name">Huyện Krông Nô</field>
+			<field name="code">664</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_665" model="res.country.district">
+			<field name="name">Huyện Đắk Song</field>
+			<field name="code">665</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_666" model="res.country.district">
+			<field name="name">Huyện Đắk R'Lấp</field>
+			<field name="code">666</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_667" model="res.country.district">
+			<field name="name">Huyện Tuy Đức</field>
+			<field name="code">667</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_67"/>
+		</record>
+		<record id="district_672" model="res.country.district">
+			<field name="name">Thành phố Đà Lạt</field>
+			<field name="code">672</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_673" model="res.country.district">
+			<field name="name">Thành phố Bảo Lộc</field>
+			<field name="code">673</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_674" model="res.country.district">
+			<field name="name">Huyện Đam Rông</field>
+			<field name="code">674</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_675" model="res.country.district">
+			<field name="name">Huyện Lạc Dương</field>
+			<field name="code">675</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_676" model="res.country.district">
+			<field name="name">Huyện Lâm Hà</field>
+			<field name="code">676</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_677" model="res.country.district">
+			<field name="name">Huyện Đơn Dương</field>
+			<field name="code">677</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_678" model="res.country.district">
+			<field name="name">Huyện Đức Trọng</field>
+			<field name="code">678</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_679" model="res.country.district">
+			<field name="name">Huyện Di Linh</field>
+			<field name="code">679</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_680" model="res.country.district">
+			<field name="name">Huyện Bảo Lâm</field>
+			<field name="code">680</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_681" model="res.country.district">
+			<field name="name">Huyện Đạ Huoai</field>
+			<field name="code">681</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_682" model="res.country.district">
+			<field name="name">Huyện Đạ Tẻh</field>
+			<field name="code">682</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_683" model="res.country.district">
+			<field name="name">Huyện Cát Tiên</field>
+			<field name="code">683</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_68"/>
+		</record>
+		<record id="district_688" model="res.country.district">
+			<field name="name">Thị xã Phước Long</field>
+			<field name="code">688</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_689" model="res.country.district">
+			<field name="name">Thành phố Đồng Xoài</field>
+			<field name="code">689</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_690" model="res.country.district">
+			<field name="name">Thị xã Bình Long</field>
+			<field name="code">690</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_691" model="res.country.district">
+			<field name="name">Huyện Bù Gia Mập</field>
+			<field name="code">691</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_692" model="res.country.district">
+			<field name="name">Huyện Lộc Ninh</field>
+			<field name="code">692</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_693" model="res.country.district">
+			<field name="name">Huyện Bù Đốp</field>
+			<field name="code">693</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_694" model="res.country.district">
+			<field name="name">Huyện Hớn Quản</field>
+			<field name="code">694</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_695" model="res.country.district">
+			<field name="name">Huyện Đồng Phú</field>
+			<field name="code">695</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_696" model="res.country.district">
+			<field name="name">Huyện Bù Đăng</field>
+			<field name="code">696</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_697" model="res.country.district">
+			<field name="name">Huyện Chơn Thành</field>
+			<field name="code">697</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_698" model="res.country.district">
+			<field name="name">Huyện Phú Riềng</field>
+			<field name="code">698</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_70"/>
+		</record>
+		<record id="district_703" model="res.country.district">
+			<field name="name">Thành phố Tây Ninh</field>
+			<field name="code">703</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_705" model="res.country.district">
+			<field name="name">Huyện Tân Biên</field>
+			<field name="code">705</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_706" model="res.country.district">
+			<field name="name">Huyện Tân Châu</field>
+			<field name="code">706</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_707" model="res.country.district">
+			<field name="name">Huyện Dương Minh Châu</field>
+			<field name="code">707</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_708" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">708</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_709" model="res.country.district">
+			<field name="name">Huyện Hòa Thành</field>
+			<field name="code">709</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_710" model="res.country.district">
+			<field name="name">Huyện Gò Dầu</field>
+			<field name="code">710</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_711" model="res.country.district">
+			<field name="name">Huyện Bến Cầu</field>
+			<field name="code">711</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_712" model="res.country.district">
+			<field name="name">Huyện Trảng Bàng</field>
+			<field name="code">712</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_72"/>
+		</record>
+		<record id="district_718" model="res.country.district">
+			<field name="name">Thành phố Thủ Dầu Một</field>
+			<field name="code">718</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_719" model="res.country.district">
+			<field name="name">Huyện Bàu Bàng</field>
+			<field name="code">719</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_720" model="res.country.district">
+			<field name="name">Huyện Dầu Tiếng</field>
+			<field name="code">720</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_721" model="res.country.district">
+			<field name="name">Thị xã Bến Cát</field>
+			<field name="code">721</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_722" model="res.country.district">
+			<field name="name">Huyện Phú Giáo</field>
+			<field name="code">722</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_723" model="res.country.district">
+			<field name="name">Thị xã Tân Uyên</field>
+			<field name="code">723</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_724" model="res.country.district">
+			<field name="name">Thị xã Dĩ An</field>
+			<field name="code">724</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_725" model="res.country.district">
+			<field name="name">Thị xã Thuận An</field>
+			<field name="code">725</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_726" model="res.country.district">
+			<field name="name">Huyện Bắc Tân Uyên</field>
+			<field name="code">726</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_74"/>
+		</record>
+		<record id="district_731" model="res.country.district">
+			<field name="name">Thành phố Biên Hòa</field>
+			<field name="code">731</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_732" model="res.country.district">
+			<field name="name">Thành phố Long Khánh</field>
+			<field name="code">732</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_734" model="res.country.district">
+			<field name="name">Huyện Tân Phú</field>
+			<field name="code">734</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_735" model="res.country.district">
+			<field name="name">Huyện Vĩnh Cửu</field>
+			<field name="code">735</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_736" model="res.country.district">
+			<field name="name">Huyện Định Quán</field>
+			<field name="code">736</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_737" model="res.country.district">
+			<field name="name">Huyện Trảng Bom</field>
+			<field name="code">737</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_738" model="res.country.district">
+			<field name="name">Huyện Thống Nhất</field>
+			<field name="code">738</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_739" model="res.country.district">
+			<field name="name">Huyện Cẩm Mỹ</field>
+			<field name="code">739</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_740" model="res.country.district">
+			<field name="name">Huyện Long Thành</field>
+			<field name="code">740</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_741" model="res.country.district">
+			<field name="name">Huyện Xuân Lộc</field>
+			<field name="code">741</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_742" model="res.country.district">
+			<field name="name">Huyện Nhơn Trạch</field>
+			<field name="code">742</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_75"/>
+		</record>
+		<record id="district_747" model="res.country.district">
+			<field name="name">Thành phố Vũng Tàu</field>
+			<field name="code">747</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_748" model="res.country.district">
+			<field name="name">Thành phố Bà Rịa</field>
+			<field name="code">748</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_750" model="res.country.district">
+			<field name="name">Huyện Châu Đức</field>
+			<field name="code">750</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_751" model="res.country.district">
+			<field name="name">Huyện Xuyên Mộc</field>
+			<field name="code">751</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_752" model="res.country.district">
+			<field name="name">Huyện Long Điền</field>
+			<field name="code">752</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_753" model="res.country.district">
+			<field name="name">Huyện Đất Đỏ</field>
+			<field name="code">753</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_754" model="res.country.district">
+			<field name="name">Thị xã Phú Mỹ</field>
+			<field name="code">754</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_755" model="res.country.district">
+			<field name="name">Huyện Côn Đảo</field>
+			<field name="code">755</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_77"/>
+		</record>
+		<record id="district_760" model="res.country.district">
+			<field name="name">Quận 1</field>
+			<field name="code">760</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_761" model="res.country.district">
+			<field name="name">Quận 12</field>
+			<field name="code">761</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_762" model="res.country.district">
+			<field name="name">Quận Thủ Đức</field>
+			<field name="code">762</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_763" model="res.country.district">
+			<field name="name">Quận 9</field>
+			<field name="code">763</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_764" model="res.country.district">
+			<field name="name">Quận Gò Vấp</field>
+			<field name="code">764</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_765" model="res.country.district">
+			<field name="name">Quận Bình Thạnh</field>
+			<field name="code">765</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_766" model="res.country.district">
+			<field name="name">Quận Tân Bình</field>
+			<field name="code">766</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_767" model="res.country.district">
+			<field name="name">Quận Tân Phú</field>
+			<field name="code">767</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_768" model="res.country.district">
+			<field name="name">Quận Phú Nhuận</field>
+			<field name="code">768</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_769" model="res.country.district">
+			<field name="name">Quận 2</field>
+			<field name="code">769</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_770" model="res.country.district">
+			<field name="name">Quận 3</field>
+			<field name="code">770</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_771" model="res.country.district">
+			<field name="name">Quận 10</field>
+			<field name="code">771</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_772" model="res.country.district">
+			<field name="name">Quận 11</field>
+			<field name="code">772</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_773" model="res.country.district">
+			<field name="name">Quận 4</field>
+			<field name="code">773</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_774" model="res.country.district">
+			<field name="name">Quận 5</field>
+			<field name="code">774</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_775" model="res.country.district">
+			<field name="name">Quận 6</field>
+			<field name="code">775</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_776" model="res.country.district">
+			<field name="name">Quận 8</field>
+			<field name="code">776</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_777" model="res.country.district">
+			<field name="name">Quận Bình Tân</field>
+			<field name="code">777</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_778" model="res.country.district">
+			<field name="name">Quận 7</field>
+			<field name="code">778</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_783" model="res.country.district">
+			<field name="name">Huyện Củ Chi</field>
+			<field name="code">783</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_784" model="res.country.district">
+			<field name="name">Huyện Hóc Môn</field>
+			<field name="code">784</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_785" model="res.country.district">
+			<field name="name">Huyện Bình Chánh</field>
+			<field name="code">785</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_786" model="res.country.district">
+			<field name="name">Huyện Nhà Bè</field>
+			<field name="code">786</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_787" model="res.country.district">
+			<field name="name">Huyện Cần Giờ</field>
+			<field name="code">787</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_79"/>
+		</record>
+		<record id="district_794" model="res.country.district">
+			<field name="name">Thành phố Tân An</field>
+			<field name="code">794</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_795" model="res.country.district">
+			<field name="name">Thị xã Kiến Tường</field>
+			<field name="code">795</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_796" model="res.country.district">
+			<field name="name">Huyện Tân Hưng</field>
+			<field name="code">796</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_797" model="res.country.district">
+			<field name="name">Huyện Vĩnh Hưng</field>
+			<field name="code">797</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_798" model="res.country.district">
+			<field name="name">Huyện Mộc Hóa</field>
+			<field name="code">798</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_799" model="res.country.district">
+			<field name="name">Huyện Tân Thạnh</field>
+			<field name="code">799</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_800" model="res.country.district">
+			<field name="name">Huyện Thạnh Hóa</field>
+			<field name="code">800</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_801" model="res.country.district">
+			<field name="name">Huyện Đức Huệ</field>
+			<field name="code">801</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_802" model="res.country.district">
+			<field name="name">Huyện Đức Hòa</field>
+			<field name="code">802</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_803" model="res.country.district">
+			<field name="name">Huyện Bến Lức</field>
+			<field name="code">803</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_804" model="res.country.district">
+			<field name="name">Huyện Thủ Thừa</field>
+			<field name="code">804</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_805" model="res.country.district">
+			<field name="name">Huyện Tân Trụ</field>
+			<field name="code">805</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_806" model="res.country.district">
+			<field name="name">Huyện Cần Đước</field>
+			<field name="code">806</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_807" model="res.country.district">
+			<field name="name">Huyện Cần Giuộc</field>
+			<field name="code">807</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_808" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">808</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_80"/>
+		</record>
+		<record id="district_815" model="res.country.district">
+			<field name="name">Thành phố Mỹ Tho</field>
+			<field name="code">815</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_816" model="res.country.district">
+			<field name="name">Thị xã Gò Công</field>
+			<field name="code">816</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_817" model="res.country.district">
+			<field name="name">Thị xã Cai Lậy</field>
+			<field name="code">817</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_818" model="res.country.district">
+			<field name="name">Huyện Tân Phước</field>
+			<field name="code">818</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_819" model="res.country.district">
+			<field name="name">Huyện Cái Bè</field>
+			<field name="code">819</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_820" model="res.country.district">
+			<field name="name">Huyện Cai Lậy</field>
+			<field name="code">820</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_821" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">821</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_822" model="res.country.district">
+			<field name="name">Huyện Chợ Gạo</field>
+			<field name="code">822</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_823" model="res.country.district">
+			<field name="name">Huyện Gò Công Tây</field>
+			<field name="code">823</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_824" model="res.country.district">
+			<field name="name">Huyện Gò Công Đông</field>
+			<field name="code">824</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_825" model="res.country.district">
+			<field name="name">Huyện Tân Phú Đông</field>
+			<field name="code">825</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_82"/>
+		</record>
+		<record id="district_829" model="res.country.district">
+			<field name="name">Thành phố Bến Tre</field>
+			<field name="code">829</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_831" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">831</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_832" model="res.country.district">
+			<field name="name">Huyện Chợ Lách</field>
+			<field name="code">832</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_833" model="res.country.district">
+			<field name="name">Huyện Mỏ Cày Nam</field>
+			<field name="code">833</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_834" model="res.country.district">
+			<field name="name">Huyện Giồng Trôm</field>
+			<field name="code">834</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_835" model="res.country.district">
+			<field name="name">Huyện Bình Đại</field>
+			<field name="code">835</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_836" model="res.country.district">
+			<field name="name">Huyện Ba Tri</field>
+			<field name="code">836</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_837" model="res.country.district">
+			<field name="name">Huyện Thạnh Phú</field>
+			<field name="code">837</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_838" model="res.country.district">
+			<field name="name">Huyện Mỏ Cày Bắc</field>
+			<field name="code">838</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_83"/>
+		</record>
+		<record id="district_842" model="res.country.district">
+			<field name="name">Thành phố Trà Vinh</field>
+			<field name="code">842</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_844" model="res.country.district">
+			<field name="name">Huyện Càng Long</field>
+			<field name="code">844</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_845" model="res.country.district">
+			<field name="name">Huyện Cầu Kè</field>
+			<field name="code">845</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_846" model="res.country.district">
+			<field name="name">Huyện Tiểu Cần</field>
+			<field name="code">846</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_847" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">847</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_848" model="res.country.district">
+			<field name="name">Huyện Cầu Ngang</field>
+			<field name="code">848</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_849" model="res.country.district">
+			<field name="name">Huyện Trà Cú</field>
+			<field name="code">849</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_851" model="res.country.district">
+			<field name="name">Thị xã Duyên Hải</field>
+			<field name="code">851</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_850" model="res.country.district">
+			<field name="name">Huyện Duyên Hải</field>
+			<field name="code">850</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_84"/>
+		</record>
+		<record id="district_855" model="res.country.district">
+			<field name="name">Thành phố Vĩnh Long</field>
+			<field name="code">855</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_857" model="res.country.district">
+			<field name="name">Huyện Long Hồ</field>
+			<field name="code">857</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_858" model="res.country.district">
+			<field name="name">Huyện Mang Thít</field>
+			<field name="code">858</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_859" model="res.country.district">
+			<field name="name">Huyện  Vũng Liêm</field>
+			<field name="code">859</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_860" model="res.country.district">
+			<field name="name">Huyện Tam Bình</field>
+			<field name="code">860</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_861" model="res.country.district">
+			<field name="name">Thị xã Bình Minh</field>
+			<field name="code">861</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_862" model="res.country.district">
+			<field name="name">Huyện Trà Ôn</field>
+			<field name="code">862</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_863" model="res.country.district">
+			<field name="name">Huyện Bình Tân</field>
+			<field name="code">863</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_86"/>
+		</record>
+		<record id="district_866" model="res.country.district">
+			<field name="name">Thành phố Cao Lãnh</field>
+			<field name="code">866</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_867" model="res.country.district">
+			<field name="name">Thành phố Sa Đéc</field>
+			<field name="code">867</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_868" model="res.country.district">
+			<field name="name">Thị xã Hồng Ngự</field>
+			<field name="code">868</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_869" model="res.country.district">
+			<field name="name">Huyện Tân Hồng</field>
+			<field name="code">869</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_870" model="res.country.district">
+			<field name="name">Huyện Hồng Ngự</field>
+			<field name="code">870</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_871" model="res.country.district">
+			<field name="name">Huyện Tam Nông</field>
+			<field name="code">871</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_872" model="res.country.district">
+			<field name="name">Huyện Tháp Mười</field>
+			<field name="code">872</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_873" model="res.country.district">
+			<field name="name">Huyện Cao Lãnh</field>
+			<field name="code">873</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_874" model="res.country.district">
+			<field name="name">Huyện Thanh Bình</field>
+			<field name="code">874</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_875" model="res.country.district">
+			<field name="name">Huyện Lấp Vò</field>
+			<field name="code">875</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_876" model="res.country.district">
+			<field name="name">Huyện Lai Vung</field>
+			<field name="code">876</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_877" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">877</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_87"/>
+		</record>
+		<record id="district_883" model="res.country.district">
+			<field name="name">Thành phố Long Xuyên</field>
+			<field name="code">883</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_884" model="res.country.district">
+			<field name="name">Thành phố Châu Đốc</field>
+			<field name="code">884</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_886" model="res.country.district">
+			<field name="name">Huyện An Phú</field>
+			<field name="code">886</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_887" model="res.country.district">
+			<field name="name">Thị xã Tân Châu</field>
+			<field name="code">887</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_888" model="res.country.district">
+			<field name="name">Huyện Phú Tân</field>
+			<field name="code">888</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_889" model="res.country.district">
+			<field name="name">Huyện Châu Phú</field>
+			<field name="code">889</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_890" model="res.country.district">
+			<field name="name">Huyện Tịnh Biên</field>
+			<field name="code">890</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_891" model="res.country.district">
+			<field name="name">Huyện Tri Tôn</field>
+			<field name="code">891</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_892" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">892</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_893" model="res.country.district">
+			<field name="name">Huyện Chợ Mới</field>
+			<field name="code">893</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_894" model="res.country.district">
+			<field name="name">Huyện Thoại Sơn</field>
+			<field name="code">894</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_89"/>
+		</record>
+		<record id="district_899" model="res.country.district">
+			<field name="name">Thành phố Rạch Giá</field>
+			<field name="code">899</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_900" model="res.country.district">
+			<field name="name">Thành phố Hà Tiên</field>
+			<field name="code">900</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_902" model="res.country.district">
+			<field name="name">Huyện Kiên Lương</field>
+			<field name="code">902</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_903" model="res.country.district">
+			<field name="name">Huyện Hòn Đất</field>
+			<field name="code">903</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_904" model="res.country.district">
+			<field name="name">Huyện Tân Hiệp</field>
+			<field name="code">904</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_905" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">905</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_906" model="res.country.district">
+			<field name="name">Huyện Giồng Riềng</field>
+			<field name="code">906</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_907" model="res.country.district">
+			<field name="name">Huyện Gò Quao</field>
+			<field name="code">907</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_908" model="res.country.district">
+			<field name="name">Huyện An Biên</field>
+			<field name="code">908</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_909" model="res.country.district">
+			<field name="name">Huyện An Minh</field>
+			<field name="code">909</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_910" model="res.country.district">
+			<field name="name">Huyện Vĩnh Thuận</field>
+			<field name="code">910</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_911" model="res.country.district">
+			<field name="name">Huyện Phú Quốc</field>
+			<field name="code">911</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_912" model="res.country.district">
+			<field name="name">Huyện Kiên Hải</field>
+			<field name="code">912</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_913" model="res.country.district">
+			<field name="name">Huyện U Minh Thượng</field>
+			<field name="code">913</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_914" model="res.country.district">
+			<field name="name">Huyện Giang Thành</field>
+			<field name="code">914</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_91"/>
+		</record>
+		<record id="district_916" model="res.country.district">
+			<field name="name">Quận Ninh Kiều</field>
+			<field name="code">916</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_917" model="res.country.district">
+			<field name="name">Quận Ô Môn</field>
+			<field name="code">917</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_918" model="res.country.district">
+			<field name="name">Quận Bình Thuỷ</field>
+			<field name="code">918</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_919" model="res.country.district">
+			<field name="name">Quận Cái Răng</field>
+			<field name="code">919</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_923" model="res.country.district">
+			<field name="name">Quận Thốt Nốt</field>
+			<field name="code">923</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_924" model="res.country.district">
+			<field name="name">Huyện Vĩnh Thạnh</field>
+			<field name="code">924</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_925" model="res.country.district">
+			<field name="name">Huyện Cờ Đỏ</field>
+			<field name="code">925</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_926" model="res.country.district">
+			<field name="name">Huyện Phong Điền</field>
+			<field name="code">926</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_927" model="res.country.district">
+			<field name="name">Huyện Thới Lai</field>
+			<field name="code">927</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_92"/>
+		</record>
+		<record id="district_930" model="res.country.district">
+			<field name="name">Thành phố Vị Thanh</field>
+			<field name="code">930</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_931" model="res.country.district">
+			<field name="name">Thị xã Ngã Bảy</field>
+			<field name="code">931</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_932" model="res.country.district">
+			<field name="name">Huyện Châu Thành A</field>
+			<field name="code">932</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_933" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">933</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_934" model="res.country.district">
+			<field name="name">Huyện Phụng Hiệp</field>
+			<field name="code">934</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_935" model="res.country.district">
+			<field name="name">Huyện Vị Thuỷ</field>
+			<field name="code">935</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_937" model="res.country.district">
+			<field name="name">Thị xã Long Mỹ</field>
+			<field name="code">937</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_936" model="res.country.district">
+			<field name="name">Huyện Long Mỹ</field>
+			<field name="code">936</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_93"/>
+		</record>
+		<record id="district_941" model="res.country.district">
+			<field name="name">Thành phố Sóc Trăng</field>
+			<field name="code">941</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_942" model="res.country.district">
+			<field name="name">Huyện Châu Thành</field>
+			<field name="code">942</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_943" model="res.country.district">
+			<field name="name">Huyện Kế Sách</field>
+			<field name="code">943</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_944" model="res.country.district">
+			<field name="name">Huyện Mỹ Tú</field>
+			<field name="code">944</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_945" model="res.country.district">
+			<field name="name">Huyện Cù Lao Dung</field>
+			<field name="code">945</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_946" model="res.country.district">
+			<field name="name">Huyện Long Phú</field>
+			<field name="code">946</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_947" model="res.country.district">
+			<field name="name">Huyện Mỹ Xuyên</field>
+			<field name="code">947</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_948" model="res.country.district">
+			<field name="name">Thị xã Ngã Năm</field>
+			<field name="code">948</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_949" model="res.country.district">
+			<field name="name">Huyện Thạnh Trị</field>
+			<field name="code">949</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_950" model="res.country.district">
+			<field name="name">Thị xã Vĩnh Châu</field>
+			<field name="code">950</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_951" model="res.country.district">
+			<field name="name">Huyện Trần Đề</field>
+			<field name="code">951</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_94"/>
+		</record>
+		<record id="district_954" model="res.country.district">
+			<field name="name">Thành phố Bạc Liêu</field>
+			<field name="code">954</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_956" model="res.country.district">
+			<field name="name">Huyện Hồng Dân</field>
+			<field name="code">956</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_957" model="res.country.district">
+			<field name="name">Huyện Phước Long</field>
+			<field name="code">957</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_958" model="res.country.district">
+			<field name="name">Huyện Vĩnh Lợi</field>
+			<field name="code">958</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_959" model="res.country.district">
+			<field name="name">Thị xã Giá Rai</field>
+			<field name="code">959</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_960" model="res.country.district">
+			<field name="name">Huyện Đông Hải</field>
+			<field name="code">960</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_961" model="res.country.district">
+			<field name="name">Huyện Hoà Bình</field>
+			<field name="code">961</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_95"/>
+		</record>
+		<record id="district_964" model="res.country.district">
+			<field name="name">Thành phố Cà Mau</field>
+			<field name="code">964</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_966" model="res.country.district">
+			<field name="name">Huyện U Minh</field>
+			<field name="code">966</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_967" model="res.country.district">
+			<field name="name">Huyện Thới Bình</field>
+			<field name="code">967</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_968" model="res.country.district">
+			<field name="name">Huyện Trần Văn Thời</field>
+			<field name="code">968</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_969" model="res.country.district">
+			<field name="name">Huyện Cái Nước</field>
+			<field name="code">969</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_970" model="res.country.district">
+			<field name="name">Huyện Đầm Dơi</field>
+			<field name="code">970</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_971" model="res.country.district">
+			<field name="name">Huyện Năm Căn</field>
+			<field name="code">971</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_972" model="res.country.district">
+			<field name="name">Huyện Phú Tân</field>
+			<field name="code">972</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+		<record id="district_973" model="res.country.district">
+			<field name="name">Huyện Ngọc Hiển</field>
+			<field name="code">973</field>
+			<field name="active" eval="True"/>
+			<field name="province_id" ref="vn_province_96"/>
+		</record>
+	</data>
+</odoo>

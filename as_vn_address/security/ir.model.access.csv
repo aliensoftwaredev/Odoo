@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_country_province_user,res.country.province.user,model_res_country_province,as_vn_address_group_user,1,1,1,0
+access_res_country_district_user,res.country.district.user,model_res_country_district,as_vn_address_group_user,1,1,1,0
+access_res_country_ward_user,res.country.ward.user,model_res_country_ward,as_vn_address_group_user,1,1,1,0
+access_res_country_province_admin,res.country.province.admin,model_res_country_province,as_vn_address_group_admin,1,1,1,1
+access_res_country_district_admin,res.country.district.admin,model_res_country_district,as_vn_address_group_admin,1,1,1,1
+access_res_country_ward_admin,res.country.ward.admin,model_res_country_ward,as_vn_address_group_admin,1,1,1,1
+access_res_country_province_base_user,res.country.province.base.user,model_res_country_province,base.group_user,1,0,0,0
+access_res_country_district_base_user,res.country.district.base.user,model_res_country_district,base.group_user,1,0,0,0
+access_res_country_ward_base_user,res.country.ward.base.user,model_res_country_ward,base.group_user,1,0,0,0

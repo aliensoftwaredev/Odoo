@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data noupdate="1">
+		<record id="vn_province_01" model="res.country.province">
+			<field name="name">Thủ đô Hà Nội</field>
+			<field name="code">01</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_02" model="res.country.province">
+			<field name="name">Tỉnh Hà Giang</field>
+			<field name="code">02</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_04" model="res.country.province">
+			<field name="name">Tỉnh Cao Bằng</field>
+			<field name="code">04</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_06" model="res.country.province">
+			<field name="name">Tỉnh Bắc Kạn</field>
+			<field name="code">06</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_08" model="res.country.province">
+			<field name="name">Tỉnh Tuyên Quang</field>
+			<field name="code">08</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_10" model="res.country.province">
+			<field name="name">Tỉnh Lào Cai</field>
+			<field name="code">10</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_11" model="res.country.province">
+			<field name="name">Tỉnh Điện Biên</field>
+			<field name="code">11</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_12" model="res.country.province">
+			<field name="name">Tỉnh Lai Châu</field>
+			<field name="code">12</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_14" model="res.country.province">
+			<field name="name">Tỉnh Sơn La</field>
+			<field name="code">14</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_15" model="res.country.province">
+			<field name="name">Tỉnh Yên Bái</field>
+			<field name="code">15</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_17" model="res.country.province">
+			<field name="name">Tỉnh Hoà Bình</field>
+			<field name="code">17</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_19" model="res.country.province">
+			<field name="name">Tỉnh Thái Nguyên</field>
+			<field name="code">19</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_20" model="res.country.province">
+			<field name="name">Tỉnh Lạng Sơn</field>
+			<field name="code">20</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_22" model="res.country.province">
+			<field name="name">Tỉnh Quảng Ninh</field>
+			<field name="code">22</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_24" model="res.country.province">
+			<field name="name">Tỉnh Bắc Giang</field>
+			<field name="code">24</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_25" model="res.country.province">
+			<field name="name">Tỉnh Phú Thọ</field>
+			<field name="code">25</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_26" model="res.country.province">
+			<field name="name">Tỉnh Vĩnh Phúc</field>
+			<field name="code">26</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_27" model="res.country.province">
+			<field name="name">Tỉnh Bắc Ninh</field>
+			<field name="code">27</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_30" model="res.country.province">
+			<field name="name">Tỉnh Hải Dương</field>
+			<field name="code">30</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_31" model="res.country.province">
+			<field name="name">Thành phố Hải Phòng</field>
+			<field name="code">31</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_33" model="res.country.province">
+			<field name="name">Tỉnh Hưng Yên</field>
+			<field name="code">33</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_34" model="res.country.province">
+			<field name="name">Tỉnh Thái Bình</field>
+			<field name="code">34</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_35" model="res.country.province">
+			<field name="name">Tỉnh Hà Nam</field>
+			<field name="code">35</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_36" model="res.country.province">
+			<field name="name">Tỉnh Nam Định</field>
+			<field name="code">36</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_37" model="res.country.province">
+			<field name="name">Tỉnh Ninh Bình</field>
+			<field name="code">37</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_38" model="res.country.province">
+			<field name="name">Tỉnh Thanh Hóa</field>
+			<field name="code">38</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_40" model="res.country.province">
+			<field name="name">Tỉnh Nghệ An</field>
+			<field name="code">40</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_42" model="res.country.province">
+			<field name="name">Tỉnh Hà Tĩnh</field>
+			<field name="code">42</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_44" model="res.country.province">
+			<field name="name">Tỉnh Quảng Bình</field>
+			<field name="code">44</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_45" model="res.country.province">
+			<field name="name">Tỉnh Quảng Trị</field>
+			<field name="code">45</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_46" model="res.country.province">
+			<field name="name">Tỉnh Thừa Thiên Huế</field>
+			<field name="code">46</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_48" model="res.country.province">
+			<field name="name">Thành phố Đà Nẵng</field>
+			<field name="code">48</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_49" model="res.country.province">
+			<field name="name">Tỉnh Quảng Nam</field>
+			<field name="code">49</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_51" model="res.country.province">
+			<field name="name">Tỉnh Quảng Ngãi</field>
+			<field name="code">51</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_52" model="res.country.province">
+			<field name="name">Tỉnh Bình Định</field>
+			<field name="code">52</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_54" model="res.country.province">
+			<field name="name">Tỉnh Phú Yên</field>
+			<field name="code">54</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_56" model="res.country.province">
+			<field name="name">Tỉnh Khánh Hòa</field>
+			<field name="code">56</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_58" model="res.country.province">
+			<field name="name">Tỉnh Ninh Thuận</field>
+			<field name="code">58</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_60" model="res.country.province">
+			<field name="name">Tỉnh Bình Thuận</field>
+			<field name="code">60</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_62" model="res.country.province">
+			<field name="name">Tỉnh Kon Tum</field>
+			<field name="code">62</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_64" model="res.country.province">
+			<field name="name">Tỉnh Gia Lai</field>
+			<field name="code">64</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_66" model="res.country.province">
+			<field name="name">Tỉnh Đắk Lắk</field>
+			<field name="code">66</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_67" model="res.country.province">
+			<field name="name">Tỉnh Đắk Nông</field>
+			<field name="code">67</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_68" model="res.country.province">
+			<field name="name">Tỉnh Lâm Đồng</field>
+			<field name="code">68</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_70" model="res.country.province">
+			<field name="name">Tỉnh Bình Phước</field>
+			<field name="code">70</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_72" model="res.country.province">
+			<field name="name">Tỉnh Tây Ninh</field>
+			<field name="code">72</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_74" model="res.country.province">
+			<field name="name">Tỉnh Bình Dương</field>
+			<field name="code">74</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_75" model="res.country.province">
+			<field name="name">Tỉnh Đồng Nai</field>
+			<field name="code">75</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_77" model="res.country.province">
+			<field name="name">Tỉnh Bà Rịa - Vũng Tàu</field>
+			<field name="code">77</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_79" model="res.country.province">
+			<field name="name">Thành phố Hồ Chí Minh</field>
+			<field name="code">79</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_80" model="res.country.province">
+			<field name="name">Tỉnh Long An</field>
+			<field name="code">80</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_82" model="res.country.province">
+			<field name="name">Tỉnh Tiền Giang</field>
+			<field name="code">82</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_83" model="res.country.province">
+			<field name="name">Tỉnh Bến Tre</field>
+			<field name="code">83</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_84" model="res.country.province">
+			<field name="name">Tỉnh Trà Vinh</field>
+			<field name="code">84</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_86" model="res.country.province">
+			<field name="name">Tỉnh Vĩnh Long</field>
+			<field name="code">86</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_87" model="res.country.province">
+			<field name="name">Tỉnh Đồng Tháp</field>
+			<field name="code">87</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_89" model="res.country.province">
+			<field name="name">Tỉnh An Giang</field>
+			<field name="code">89</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_91" model="res.country.province">
+			<field name="name">Tỉnh Kiên Giang</field>
+			<field name="code">91</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_92" model="res.country.province">
+			<field name="name">Thành phố Cần Thơ</field>
+			<field name="code">92</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_93" model="res.country.province">
+			<field name="name">Tỉnh Hậu Giang</field>
+			<field name="code">93</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_94" model="res.country.province">
+			<field name="name">Tỉnh Sóc Trăng</field>
+			<field name="code">94</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_95" model="res.country.province">
+			<field name="name">Tỉnh Bạc Liêu</field>
+			<field name="code">95</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+		<record id="vn_province_96" model="res.country.province">
+			<field name="name">Tỉnh Cà Mau</field>
+			<field name="code">96</field>
+			<field name="active" eval="True"/>
+			<field name="country_id" ref="base.vn"/>
+		</record>
+	</data>
+</odoo>

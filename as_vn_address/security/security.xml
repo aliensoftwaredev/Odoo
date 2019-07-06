@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.module.category" id="as_vn_address_category">
+        <field name="name">Viet Nam Address</field>
+    </record>
+
+    <record id="as_vn_address_group_user" model="res.groups">
+        <field name="name">User</field>
+        <field name="category_id" ref="as_vn_address.as_vn_address_category"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+
+    <record id="as_vn_address_group_admin" model="res.groups">
+        <field name="name">Admin</field>
+        <field name="category_id" ref="as_vn_address.as_vn_address_category"/>
+        <field name="implied_ids" eval="[(4, ref('as_vn_address.as_vn_address_group_user'))]"/>
+    </record>
+
+</odoo>

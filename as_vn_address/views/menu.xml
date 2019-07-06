@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="viet_nam_address_root" name="Viet Nam Address" parent="base.menu_custom" sequence="40"/>
+    <menuitem id="viet_nam_province_menu" parent="viet_nam_address_root" action="as_vn_address_province_action" sequence="1"/>
+    <menuitem id="viet_nam_district_menu" parent="viet_nam_address_root" action="as_vn_address_district_action" sequence="2"/>
+    <menuitem id="viet_nam_ward_menu" parent="viet_nam_address_root" action="as_vn_address_ward_action" sequence="3"/>
+</odoo>
